@@ -6,3 +6,10 @@ img {
   width: 800px;
   height: 600px;
 }
+
+.navbutton {
+  width: 75px;
+  margin: 10px;
+  border: 2px solid blue;
+  padding: 10px;
+}
