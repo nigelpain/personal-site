@@ -3,6 +3,20 @@ body {
   background-image: url('../images/pagebackground.png')
 }
 
+#page {
+  max-width: 1024px;
+  min-width: 810px;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  border: 5px ridge;
+  background-color: #ffffff;
+}
+
+#logo {
+  width: 800px;
+  margin: 10px auto 10px auto;
+}
+
 p {
   font-family: Arial, Verdana, sans-serif;
 }
