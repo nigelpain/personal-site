@@ -17,6 +17,21 @@ body {
   margin: 10px auto 10px auto;
 }
 
+#navbar {
+  width: 800px;
+  margin: 10px auto 10px auto;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbutton {
+  font-size: 18px;
+  display: inline;
+  margin: 0px 40px;
+}
+
 p {
   font-family: Arial, Verdana, sans-serif;
 }
@@ -24,11 +39,4 @@ p {
 img {
   width: 800px;
   height: 600px;
-}
-
-.navbutton {
-  width: 75px;
-  margin: 10px;
-  border: 2px solid blue;
-  padding: 10px;
 }
