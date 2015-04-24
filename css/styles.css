@@ -3,6 +3,15 @@ body {
   background-image: url('../images/pagebackground.png')
 }
 
+img {
+  width: 800px;
+  height: 600px;
+}
+
+p {
+  font-family: Arial, Verdana, sans-serif;
+}
+
 #page {
   max-width: 1024px;
   min-width: 810px;
@@ -28,21 +37,26 @@ body {
   text-align: center;
 }
 
+#galleries {
+  overflow: auto;
+  width: 100%;
+}
+
+.gallerylinks {
+  width: 224px;
+  float: left;
+  margin: 10px;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+
 .navbutton {
   font-size: 18px;
   display: inline;
   margin: 0px 40px;
 }
 
-p {
-  font-family: Arial, Verdana, sans-serif;
-}
-
-img {
-  width: 800px;
-  height: 600px;
-}
-
 .photocaption {
-  
+
 }
