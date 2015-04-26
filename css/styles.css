@@ -1,3 +1,7 @@
+/*Import the 960 grid system to help define layout */
+@import url("960_12_col.css");
+
+/*General Styles*/
 body {
   /*Provided by subtlepatterns.com*/
   background-image: url('../images/pagebackground.png')
@@ -14,42 +18,25 @@ p {
 }
 
 #page {
-  max-width: 1024px;
-  min-width: 810px;
-  margin: 10px auto 10px auto;
-  padding: 10px;
   border: 5px ridge;
   background-color: #ffffff;
 }
 
-#pagecontent {
-  width: 800px;
-  margin: 10px auto 10px auto;
-}
-
 #logo {
+  text-align: center;
+  background-color: #efefef;
   font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 #navbar {
+  background-color: #efefef;
   border-top: 2px solid;
   border-bottom: 2px solid;
-  padding: 20px;
   text-align: center;
-}
-
-#galleries {
-  overflow: auto;
-  width: 100%;
-}
-
-.gallerylinks {
-  width: 224px;
-  float: left;
-  margin: 10px;
-  border: 1px solid;
-  padding: 10px;
-  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .navbutton {
@@ -58,7 +45,41 @@ p {
   margin: 0px 40px;
 }
 
+/*Homepage Styles */
+#siteintro {
+  background-color: #efefef;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#blog {
+  background-color: #efefef;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*Gallery Styles*/
+#galleries {
+  overflow: auto;
+  width: 100%;
+}
+
+.gallerylinks {
+  height: 300px;
+  background-color: #efefef;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .photocaption {
   padding-bottom: 10px;
   border-bottom: 1px solid;
+}
+
+/*About Me Styles*/
+#aboutme {
+  background-color: #efefef;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
