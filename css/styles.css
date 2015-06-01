@@ -17,7 +17,21 @@ p {
   font-family: Arial, Verdana, sans-serif;
 }
 
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #993327;
+  text-align: center;
+}
+
+nav li{
+  display: inline;
+}
+
 #page {
+  margin-top: 54px;
   border: 5px ridge;
   background-color: #ffffff;
 }
@@ -30,19 +44,24 @@ p {
   margin-bottom: 10px;
 }
 
-#navbar {
-  background-color: #efefef;
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.navbtn {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  text-shadow: 2px 2px 7px #111111;
+  padding: 0px 40px;
 }
 
-.navbutton {
+.navbtn:hover, .navbtncur:hover {
+  font-weight: bold;
+}
+
+.navbtncur {
+  text-decoration: none;
   font-size: 18px;
-  display: inline;
-  margin: 0px 40px;
+  color: #CD8E27;
+  text-shadow: 2px 2px 7px #111111;
+  padding: 0px 40px;
 }
 
 /*Homepage Styles */
