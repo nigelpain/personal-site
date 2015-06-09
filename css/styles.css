@@ -40,6 +40,20 @@ p {
   margin-top: 54px;
 }
 
+#page-header {
+  color: white;
+  font-size: 24px;
+  font-family: Comic Sans MS, sans-serif;
+  text-shadow: 2px 2px 7px #111111;
+}
+
+.section-header {
+  color: white;
+  font-size: 24px;
+  font-family: Comic Sans MS, sans-serif;
+  text-shadow: 2px 2px 7px #111111;
+}
+
 .navbtn {
   text-decoration: none;
   font-size: 18px;
@@ -92,9 +106,18 @@ p {
   border-bottom: 1px solid;
 }
 
-/*About Me Styles*/
+/*About Styles*/
 #aboutme {
   background-color: #efefef;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+/*Contact Styles*/
+#contact-intro {
+  clear: left;
+}
+
+#contact-telephone {
+  float: right;
 }
