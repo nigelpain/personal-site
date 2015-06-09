@@ -3,8 +3,25 @@
 
 /*General Styles*/
 body {
-  /*Provided by subtlepatterns.com*/
-  background-image: url('../images/pagebackground.png')
+  background-color: #592821;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #993327;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+header {
+  height: 240px;
+  background-color: white;
 }
 
 img {
@@ -17,31 +34,8 @@ p {
   font-family: Arial, Verdana, sans-serif;
 }
 
-nav {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  background-color: #993327;
-  text-align: center;
-}
-
-nav li{
-  display: inline;
-}
-
 #page {
   margin-top: 54px;
-  border: 5px ridge;
-  background-color: #ffffff;
-}
-
-#logo {
-  text-align: center;
-  background-color: #efefef;
-  font-size: 28px;
-  margin-top: 20px;
-  margin-bottom: 10px;
 }
 
 .navbtn {
