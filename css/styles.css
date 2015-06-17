@@ -7,11 +7,12 @@ body {
 }
 
 nav {
+  height: 84px;
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  background-color: #993327;
+  background-image: url("../images/Header and Footer Border.png");
   text-align: center;
 }
 
@@ -37,7 +38,7 @@ p {
 }
 
 #page {
-  margin-top: 54px;
+  margin-top: 44px;
 }
 
 #logo {
