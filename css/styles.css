@@ -1,5 +1,7 @@
-/*Import the 960 grid system to help define layout */
+/* Import the 960 grid system to help define layout */
 @import url("960_12_col.css");
+/* Import fonts used for website */
+@import url("fonts.css");
 
 /*General Styles*/
 body {
@@ -43,24 +45,25 @@ p {
 
 #logo {
   color: white;
+  font-family: 'kaushan_scriptregular', Arial, sans-serif;
   font-size: 24px;
   text-shadow: 2px 2px 7px #111111;
   float: right;
-  margin-right: 15px;
-  margin-top: 140px;
+  margin-right: 20px;
+  margin-top: 120px;
 }
 
 #page-header {
   color: white;
   font-size: 24px;
-  font-family: Comic Sans MS, sans-serif;
+  font-family: 'kaushan_scriptregular', Arial, sans-serif;
   text-shadow: 2px 2px 7px #111111;
 }
 
 .section-header {
   color: white;
   font-size: 24px;
-  font-family: Comic Sans MS, sans-serif;
+  font-family: 'kaushan_scriptregular', Arial, sans-serif;
   text-shadow: 2px 2px 7px #111111;
 }
 
