@@ -5,16 +5,16 @@
 
 /*General Styles*/
 body {
-  background-color: #592821;
+  background-image: url("../images/backgrounds/Page Background.jpg")
 }
 
 nav {
-  height: 84px;
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  background-image: url("../images/Header and Footer Border.png");
+  background-color: #2E1915;
+  border-bottom: 3px solid #F1D5B9;
   text-align: center;
 }
 
@@ -24,7 +24,8 @@ nav li {
 
 header {
   height: 240px;
-  background-image: url("../images/Header Background.jpg");
+  background-image: url("../images/backgrounds/Header Background.jpg");
+  border-bottom: 3px solid #F1D5B9;
 }
 
 img {
@@ -40,7 +41,7 @@ p {
 }
 
 #page {
-  margin-top: 44px;
+  margin-top: 57px;
 }
 
 #logo {
@@ -82,9 +83,10 @@ p {
 .navbtncur {
   text-decoration: none;
   font-size: 18px;
-  color: #CD8E27;
+  color: #F1D5B9;
   text-shadow: 2px 2px 7px #111111;
-  padding: 0px 40px;
+  border-bottom: 3px solid #F1D5B9;
+  padding: 13px 40px;
 }
 
 /*Homepage Styles */
