@@ -51,6 +51,16 @@ p {
   text-shadow: 2px 2px 7px #111111;
 }
 
+#twitterLogo {
+  height: 48px;
+  width: 48px;
+  background-color: #55acee;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 2px 2px 2px #111111;
+}
+
 .sectionHeader {
   color: white;
   font-size: 32px;
