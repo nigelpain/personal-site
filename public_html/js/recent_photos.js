@@ -4,7 +4,8 @@ var recentPhoto = document.getElementById("recentPhotos");
 var recentPhotoList = ["images/recent photos/Heavens Ridge (website).jpg",
                         "images/recent photos/First to Fall (website).jpg",
                         "images/recent photos/Forgotten Love (website).jpg",
-                        "images/recent photos/Little Nipper (website).jpg"];
+                        "images/recent photos/Little Nipper (website).jpg",
+                        "images/recent photos/A Bridge into Autumn (website).jpg"];
 // Set looping variable to zero
 var currentPhoto = 0;
 // Set the image source to the nth element of the array and then loop through,
