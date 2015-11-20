@@ -1,3 +1,8 @@
+<?php
+session_start();
+$confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [];
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,7 +16,7 @@
         <li><a href="gallery/index.html" class="navbtn">Gallery</a></li>
         <li><a href="#" class="navbtn">Blog</a></li>
         <li><a href="about.html" class="navbtn">About</a></li>
-        <li><a href="contact.html" class="navbtncur">Contact</a></li>
+        <li><a href="contact.php" class="navbtncur">Contact</a></li>
       </ul>
     </nav>
     <div id="page" class="container_12 clearfix">
@@ -35,11 +40,27 @@
       <div id="columnBottomLeft" class="grid_6">
         <h2 class="sectionHeader">Form</h2>
         <form action="email.php" method="post">
-          Name: <input type="text" name="fullname">
-          Email: <input type="email" name="email">
-          Message: <textarea name="message"></textarea>
-          <input type="submit" value="Submit">
+          <ul>
+            <li>
+              <label for="name">Name: </label>
+              <input type="text" id="name" name="name" required>
+            </li>
+            <li>
+              <label for="email">Email: </label>
+              <input type="email" id="email" name="email" required>
+            </li>
+            <li>
+              <label for="message">Enter your message: </label>
+              <textarea id="message" name="message" rows="6" cols="50" required></textarea>
+            </li>
+            <li>
+              <input type="submit" value="Submit">
+            </li>
+          </ul>
         </form>
+        <?php if(!empty($confirmation)): ?>
+          <p><?php echo $_SESSION['confirmation']; ?></p>
+        <?php endif; ?>
       </div><!-- columnBottomLeft -->
 
       <div id="columnBottomRight" class="grid_6">
@@ -62,3 +83,7 @@
     </script>
   </body>
 </html>
+
+<?php
+unset($_SESSION['confirmation']);
+?>
