@@ -34,6 +34,12 @@
 
       <div id="columnBottomLeft" class="grid_6">
         <h2 class="sectionHeader">Form</h2>
+        <form action="email.php" method="post">
+          Name: <input type="text" name="fullname">
+          Email: <input type="email" name="email">
+          Message: <textarea name="message"></textarea>
+          <input type="submit" value="Submit">
+        </form>
       </div><!-- columnBottomLeft -->
 
       <div id="columnBottomRight" class="grid_6">
