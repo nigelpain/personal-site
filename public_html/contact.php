@@ -38,29 +38,31 @@ $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [
       </div><!-- columnTopRight -->
 
       <div id="columnBottomLeft" class="grid_6">
-        <h2 class="sectionHeader">Form</h2>
-        <form action="email.php" method="post">
-          <ul>
-            <li>
-              <label for="name">Name: </label>
-              <input type="text" id="name" name="name" required>
-            </li>
-            <li>
-              <label for="email">Email: </label>
-              <input type="email" id="email" name="email" required>
-            </li>
-            <li>
-              <label for="message">Enter your message: </label>
-              <textarea id="message" name="message" rows="6" cols="50" required></textarea>
-            </li>
-            <li>
-              <input type="submit" value="Submit">
-            </li>
-          </ul>
-        </form>
+        <h2 class="sectionHeader">Fine Form</h2>
         <?php if(!empty($confirmation)): ?>
-          <p><?php echo $_SESSION['confirmation']; ?></p>
+          <p id="formMessage"><?php echo $_SESSION['confirmation']; ?></p>
         <?php endif; ?>
+        <form action="email.php" method="post">
+          <div class="formElement">
+            <label class="formLabel" for="name">Name : </label>
+            <input class="formInput" type="text" id="name" name="name" size="30" required>
+          </div>
+          <div class="formElement">
+            <label class="formLabel" for="email">Email : </label>
+            <input class="formInput" type="email" id="email" name="email" size="30" required>
+          </div>
+          <div class="formElement">
+            <label class="formLabel" for="subject">Subject : </label>
+            <input class="formInput" type="text" id="subject" name="subject" size="30" required>
+          </div>
+          <div class="formElement">
+            <label class="formLabel" for="message">Message : </label>
+            <textarea class="formInput" id="message" name="message" rows="5" cols="35" required></textarea>
+          </div>
+          <div class="formSubmit">
+            <input class="formButton" type="submit" value="Submit">
+          </div>
+        </form>
       </div><!-- columnBottomLeft -->
 
       <div id="columnBottomRight" class="grid_6">

@@ -28,7 +28,7 @@ header {
   border-bottom: 3px solid #F1D5B9;
 }
 
-p, label {
+p {
   color: white;
   font-size: 16px;
   font-family: Arial, Verdana, sans-serif;
@@ -147,4 +147,56 @@ p, label {
 /*Contact Styles*/
 #contact-intro {
   clear: left;
+}
+
+#formMessage {
+  width: 85%;
+  padding: 10px;
+  border: 3px solid #F1D5B9;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+  color: #F1D5B9;
+}
+
+.formElement {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.formSubmit {
+  float: right;
+  padding-right: 40px;
+}
+
+.formLabel {
+  float: left;
+  width: 20%;
+  padding: 5px 10px 5px 5px;
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: right;
+}
+
+.formInput {
+  border: 2px solid #F1D5B9;
+  padding: 3px;
+  font-size: 16px;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.formButton {
+  background-color: #F1D5B9;
+  border: 2px solid #F1D5B9;
+  box-shadow: 1px 1px 1px #111111;
+  font-size: 16px;
+  font-family: Arial, Verdana, sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px #ffffff;
+}
+
+.formButton:hover {
+  cursor: pointer;
 }
