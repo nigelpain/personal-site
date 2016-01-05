@@ -24,53 +24,58 @@ $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [
         <img src="./images/Header Logo.png" alt="Website Logo">
       </header>
 
-      <div id="columnTopLeft" class="grid_8">
+      <div id="columnLeft" class="grid_6">
         <h1 id="pageHeader">Get in Touch</h1>
-        <div id="contact-intro" class="grid_6">
+        <div id="contactIntro">
           <p>You can use any of the methods on this page to contact me. I like to think that I am a friendly and approachable kinda chap, so just get in touch if you have questions about services I offer.</p>
-        </div><!-- contact-intro -->
-      </div><!-- columnTopLeft -->
+        </div><!-- contactIntro -->
 
-      <div id="columnTopRight" class="grid_4">
-        <h2 class="sectionHeader">Audiophone</h2>
-        <p>If you prefer the sound of a human voice then feel free to call me on:</p>
-        <p><b>07527 983268</b></p>
-      </div><!-- columnTopRight -->
-
-      <div id="columnBottomLeft" class="grid_6">
-        <h2 class="sectionHeader">Fine Form</h2>
+        <h2 class="sectionHeader">Form and Composition</h2>
+        <p>Use the form below to email me any queries or suggestions you may have and I will get back to use as soon as possible:</p>
         <?php if(!empty($confirmation)): ?>
           <p id="formMessage"><?php echo $_SESSION['confirmation']; ?></p>
         <?php endif; ?>
-        <form action="email.php" method="post">
-          <div class="formElement">
-            <label class="formLabel" for="name">Name : </label>
-            <input class="formInput" type="text" id="name" name="name" size="30" required>
-          </div>
-          <div class="formElement">
-            <label class="formLabel" for="email">Email : </label>
-            <input class="formInput" type="email" id="email" name="email" size="30" required>
-          </div>
-          <div class="formElement">
-            <label class="formLabel" for="subject">Subject : </label>
-            <input class="formInput" type="text" id="subject" name="subject" size="30" required>
-          </div>
-          <div class="formElement">
-            <label class="formLabel" for="message">Message : </label>
-            <textarea class="formInput" id="message" name="message" rows="5" cols="35" required></textarea>
-          </div>
-          <div class="formSubmit">
-            <input class="formButton" type="submit" value="Submit">
-          </div>
-        </form>
-      </div><!-- columnBottomLeft -->
+        <div id="contactForm">
+          <form action="email.php" method="post">
+            <div class="formElement">
+              <label class="formLabel" for="name">Name : </label>
+              <input class="formInput" type="text" id="name" name="name" size="30" required>
+            </div>
+            <div class="formElement">
+              <label class="formLabel" for="email">Email : </label>
+              <input class="formInput" type="email" id="email" name="email" size="30" required>
+            </div>
+            <div class="formElement">
+              <label class="formLabel" for="subject">Subject : </label>
+              <input class="formInput" type="text" id="subject" name="subject" size="30" required>
+            </div>
+            <div class="formElement">
+              <label class="formLabel" for="message">Message : </label>
+              <textarea class="formInput" id="message" name="message" rows="5" cols="35" required></textarea>
+            </div>
+            <div class="formSubmit">
+              <input class="formButton" type="submit" value="Submit">
+            </div>
+          </form>
+        </div><!-- contactForm -->
+      </div><!-- columnLeft -->
 
-      <div id="columnBottomRight" class="grid_6">
-        <h2 class="sectionHeader">Follow Me!</h2>
-        <p>(just not in a creepy way please)</p>
-        <script src="https://platform.twitter.com/widgets.js"></script>
-        <a href="https://twitter.com/intent/follow?screen_name=Monk_a_Moo"><img id="twitterLogo" src="./images/TwitterLogo_white.png" /></a>
-      </div><!-- columnBottomRight -->
+      <div id="columnRight" class="grid_6">
+        <div id="phoneDetails">
+          <img id="phoneIcon" src="./images/Phone Icon.png" alt="Phone Icon">
+          <h2 class="sectionHeader">Audiophone</h2>
+          <p>If you prefer the sound of a human voice then feel free to call me on:</p>
+          <p><b>07527 983268</b></p>
+        </div><!-- phoneDetails -->
+
+        <div id="socialLinks">
+          <h2 class="sectionHeader">Follow Me</h2>
+          <p>(just not in a creepy way please)</p>
+          <script src="https://platform.twitter.com/widgets.js"></script>
+          <a href="https://twitter.com/intent/follow?screen_name=Monk_a_Moo"><img id="twitterLogo" src="./images/TwitterLogo_white.png" /></a>
+        </div><!-- socialLinks -->
+      </div><!-- columnRight -->
+
     </div><!-- page -->
     <!-- google analytics code -->
     <script>

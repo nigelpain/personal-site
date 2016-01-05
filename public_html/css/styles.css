@@ -142,10 +142,32 @@ a:hover {
 }
 
 /*About Styles*/
+#mePhoto {
+  border: 3px solid #F1D5B9;
+  margin-top: 70px;
+  margin-left: 20px;
+}
 
 /*Contact Styles*/
-#contact-intro {
-  clear: left;
+#contactIntro {
+  margin-bottom: 50px;
+}
+
+#phoneIcon {
+  float: left;
+  margin: 30px 20px;
+}
+
+#phoneDetails {
+  overflow: auto;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+#socialLinks {
+  overflow: auto;
+  margin-top: 70px;
+  margin-left: 50px;
 }
 
 #formMessage {
@@ -157,6 +179,11 @@ a:hover {
   font-family: Arial, Verdana, sans-serif;
   text-align: center;
   color: #F1D5B9;
+}
+
+#contactForm {
+  overflow: auto;
+  margin: 30px 0px;
 }
 
 .formElement {
