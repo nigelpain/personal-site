@@ -28,8 +28,8 @@ $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [
         <h1 id="pageHeader">Get in Touch</h1>
         <div id="contactIntro">
           <p>Please feel free to use any of the methods on this page to contact me.</p>
-          <p>I am still very much a newbie in the world of photography so I haven’t got any formal arrangements in place for ordering prints or commissioning me for a shoot. However I would be more than happy to discuss any of these services with you so that we can come to an agreement on what your expectations or requirements are and how well I can meet them.</p>
-          <p>I am also more than happy to take any feedback (hey it’s the best way to learn) so if you are an old pro critiquing some of my shots or if you have spotted any issues with the website please do let me know.</p>
+          <p>I am still very much a newbie in the world of photography so I havent got any formal arrangements in place for ordering prints or commissioning me for a shoot. However I would be more than happy to discuss any of these services with you so that we can come to an agreement on what your expectations or requirements are and how well I can meet them.</p>
+          <p>I am also more than happy to take any feedback (hey its the best way to learn) so if you are an old pro critiquing some of my shots or if you have spotted any issues with the website please do let me know.</p>
         </div><!-- contactIntro -->
 
         <h2 class="sectionHeader">Form and Composition</h2>
