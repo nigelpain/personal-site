@@ -150,7 +150,7 @@ a:hover {
 
 /*Contact Styles*/
 #contactIntro {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 #phoneIcon {
@@ -160,14 +160,14 @@ a:hover {
 
 #phoneDetails {
   overflow: auto;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 30px;
 }
 
 #socialLinks {
   overflow: auto;
   margin-top: 70px;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 #formMessage {
