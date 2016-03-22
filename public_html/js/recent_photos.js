@@ -3,7 +3,7 @@ var recentPhoto = document.getElementById("recentPhotos");
 // Set an array that contains all the images to go in the slideshow
 var recentPhotoList = ["images/recent photos/Heavens Ridge (website).jpg",
                         "images/recent photos/First to Fall (website).jpg",
-                        "images/recent photos/Forgotten Love (website).jpg",
+                        "images/recent photos/River Runs Through Murkwood (website).jpg",
                         "images/recent photos/Little Nipper (website).jpg",
                         "images/recent photos/A Bridge into Autumn (website).jpg"];
 // Set looping variable to zero
