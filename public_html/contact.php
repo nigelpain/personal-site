@@ -12,7 +12,7 @@ $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [
   <body>
     <nav>
       <ul>
-        <li><a href="index.html" class="navbtn">Home</a></li>
+        <li><a href="photography.html" class="navbtn">Home</a></li>
         <li><a href="gallery/index.html" class="navbtn">Gallery</a></li>
         <li><a href="#" class="navbtn">Blog</a></li>
         <li><a href="about.html" class="navbtn">About</a></li>
