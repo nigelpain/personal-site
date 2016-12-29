@@ -1,0 +1,5 @@
+language: php
+before_install:
+  - bash _scripts/install.sh
+script:
+  - bash _scripts/deploy.sh
