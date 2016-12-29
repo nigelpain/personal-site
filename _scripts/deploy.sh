@@ -1,8 +1,7 @@
 #!/bin/bash
 set -x
 if [ $TRAVIS_BRANCH == 'master' ] ; then
-    mkdir deploy
-    cp -R /html /deploy
+    cp -R html deploy
     cd deploy
     git init
 
