@@ -2,11 +2,9 @@
 @import url("960_12_col.css");
 /* Import fonts used for website */
 @import url("fonts.css");
-
 /*General Styles*/
 body {
-  background-image: url("../images/backgrounds/Page Background.jpg")
-}
+  background-image: url("../images/backgrounds/Page Background.jpg"); }
 
 nav {
   position: fixed;
@@ -15,43 +13,35 @@ nav {
   width: 100%;
   background-color: #2E1915;
   border-bottom: 3px solid #F1D5B9;
-  text-align: center;
-}
+  text-align: center; }
 
 nav li {
-  display: inline;
-}
+  display: inline; }
 
 header {
   height: 240px;
   background-image: url("../images/backgrounds/Header Background.jpg");
-  border-bottom: 3px solid #F1D5B9;
-}
+  border-bottom: 3px solid #F1D5B9; }
 
 p {
   color: #ffffff;
   font-size: 16px;
-  font-family: Arial, Verdana, sans-serif;
-}
+  font-family: Arial, Verdana, sans-serif; }
 
 a {
-  color: #F1D5B9;
-}
+  color: #F1D5B9; }
 
 a:hover {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 #page {
-  margin-top: 57px;
-}
+  margin-top: 57px; }
 
 #pageHeader {
   color: #ffffff;
   font-size: 42px;
   font-family: 'kaushan_scriptregular', Arial, sans-serif;
-  text-shadow: 2px 2px 7px #111111;
-}
+  text-shadow: 2px 2px 7px #111111; }
 
 #twitterLogo {
   height: 48px;
@@ -60,22 +50,19 @@ a:hover {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  box-shadow: 2px 2px 2px #111111;
-}
+  box-shadow: 2px 2px 2px #111111; }
 
 .sectionHeader {
   color: #ffffff;
   font-size: 32px;
   font-family: 'kaushan_scriptregular', Arial, sans-serif;
-  text-shadow: 2px 2px 7px #111111;
-}
+  text-shadow: 2px 2px 7px #111111; }
 
 .subHeader {
   color: #ffffff;
   font-size: 24px;
   font-family: 'kaushan_scriptregular', Arial, sans-serif;
-  text-shadow: 2px 2px 7px #111111;
-}
+  text-shadow: 2px 2px 7px #111111; }
 
 .navbtn {
   text-decoration: none;
@@ -83,12 +70,10 @@ a:hover {
   font-size: 18px;
   color: #ffffff;
   text-shadow: 2px 2px 7px #111111;
-  padding: 0px 40px;
-}
+  padding: 0px 40px; }
 
 .navbtn:hover, .navbtncur:hover {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .navbtncur {
   text-decoration: none;
@@ -97,78 +82,66 @@ a:hover {
   color: #F1D5B9;
   text-shadow: 2px 2px 7px #111111;
   border-bottom: 3px solid #F1D5B9;
-  padding: 14px 40px;
-}
+  padding: 14px 40px; }
 
 /*Homepage Styles */
 #siteSummary {
   padding: 30px 5px;
-  text-align: center;
-}
+  text-align: center; }
 
 #recentPhotos {
   width: 400px;
   height: auto;
-  border: 3px solid #F1D5B9;
-}
+  border: 3px solid #F1D5B9; }
 
 /*Gallery Styles*/
 #galleries {
   overflow: auto;
-  width: 100%;
-}
+  width: 100%; }
 
 .gallerylinks {
   height: 300px;
   background-color: #efefef;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
 .galleryThumb {
   height: 165px;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
 .imageThumb {
   display: block;
   max-height: 75%;
   margin: 0px auto;
   border: 2px solid #F1D5B9;
-  box-shadow: 2px 2px 2px #111111;
-}
+  box-shadow: 2px 2px 2px #111111; }
 
 /*About Styles*/
 #mePhoto {
   border: 3px solid #F1D5B9;
   margin-top: 70px;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 
 /*Contact Styles*/
 #contactIntro {
-  margin-bottom: 60px;
-}
+  margin-bottom: 60px; }
 
 #phoneIcon {
   float: left;
-  margin: 30px 20px;
-}
+  margin: 30px 20px; }
 
 #phoneDetails {
   overflow: auto;
   margin-top: 80px;
-  margin-left: 30px;
-}
+  margin-left: 30px; }
 
 #socialLinks {
   overflow: auto;
   margin-top: 70px;
-  margin-left: 80px;
-}
+  margin-left: 80px; }
 
 #formMessage {
   width: 85%;
@@ -178,23 +151,19 @@ a:hover {
   font-size: 16px;
   font-family: Arial, Verdana, sans-serif;
   text-align: center;
-  color: #F1D5B9;
-}
+  color: #F1D5B9; }
 
 #contactForm {
   overflow: auto;
-  margin: 30px 0px;
-}
+  margin: 30px 0px; }
 
 .formElement {
   margin: 10px;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
 
 .formSubmit {
   float: right;
-  padding-right: 40px;
-}
+  padding-right: 40px; }
 
 .formLabel {
   float: left;
@@ -203,15 +172,13 @@ a:hover {
   color: #ffffff;
   font-size: 16px;
   font-family: Arial, Verdana, sans-serif;
-  text-align: right;
-}
+  text-align: right; }
 
 .formInput {
   border: 2px solid #F1D5B9;
   padding: 3px;
   font-size: 16px;
-  font-family: Arial, Verdana, sans-serif;
-}
+  font-family: Arial, Verdana, sans-serif; }
 
 .formButton {
   background-color: #F1D5B9;
@@ -221,9 +188,7 @@ a:hover {
   font-size: 18px;
   font-weight: bold;
   font-family: 'kaushan_scriptregular', Arial, sans-serif;
-  text-shadow: 0px 1px 1px #111111;
-}
+  text-shadow: 0px 1px 1px #111111; }
 
 .formButton:hover {
-  cursor: pointer;
-}
+  cursor: pointer; }
