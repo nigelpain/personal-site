@@ -19,7 +19,6 @@
   "devDependencies": {
     "browser-sync": "^2.18.5",
     "gulp": "^3.9.1",
-    "gulp-connect-php": "0.0.8",
     "gulp-sass": "^3.0.0",
     "run-sequence": "^1.2.2"
   }
