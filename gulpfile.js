@@ -1,6 +1,9 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
+var useref = require('gulp-useref');
+var gulpIf = require('gulp-if');
+var cssnano = require('gulp-cssnano');
 var runSequence = require('run-sequence');
 
 // Run the various gulp tasks in order due to dependencies
@@ -34,4 +37,11 @@ gulp.task('watch', function() {
   gulp.watch('app/scss/**/*.scss', ['sass']);
   gulp.watch('app/*.html', browserSync.reload);
   gulp.watch('app/js/**/*.js', browserSync.reload);
+});
+
+gulp.task('useref', function() {
+  return gulp.src(['app/*.html', 'app/*.php'])
+    .pipe(useref())
+    .pipe(gulpIf('*.css', cssnano()))
+    .pipe(gulp.dest('dist'))
 });
