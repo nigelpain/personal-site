@@ -3,6 +3,7 @@ var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
 var useref = require('gulp-useref');
 var gulpIf = require('gulp-if');
+var uglify = require('gulp-uglify');
 var cssnano = require('gulp-cssnano');
 var runSequence = require('run-sequence');
 
@@ -39,9 +40,11 @@ gulp.task('watch', function() {
   gulp.watch('app/js/**/*.js', browserSync.reload);
 });
 
+// Concatenate javascript and css files and perform minification on the results
 gulp.task('useref', function() {
   return gulp.src(['app/*.html', 'app/*.php'])
     .pipe(useref())
+    .pipe(gulpIf('*.js', uglify()))
     .pipe(gulpIf('*.css', cssnano()))
     .pipe(gulp.dest('dist'))
 });
