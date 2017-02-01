@@ -5,6 +5,8 @@ var useref = require('gulp-useref');
 var gulpIf = require('gulp-if');
 var uglify = require('gulp-uglify');
 var cssnano = require('gulp-cssnano');
+var imagemin = require('gulp-imagemin');
+var cache = require('gulp-cache');
 var runSequence = require('run-sequence');
 
 // Run the various gulp tasks in order due to dependencies
@@ -41,7 +43,7 @@ gulp.task('watch', function() {
 });
 
 // Concatenate javascript and perform minification on the results
-gulp.task('jsmin', function() {
+gulp.task('javascript', function() {
   return gulp.src(['app/*.html', 'app/*.php'])
     .pipe(useref())
     .pipe(gulpIf('*.js', uglify()))
@@ -49,8 +51,15 @@ gulp.task('jsmin', function() {
 });
 
 // Perform minification on main css file
-gulp.task('cssmin', function() {
+gulp.task('css', function() {
   return gulp.src('app/css/main.css')
     .pipe(cssnano())
     .pipe(gulp.dest('dist/css'))
+});
+
+// Perform minification on all images
+gulp.task('images', function() {
+  return gulp.src('app/images/**/*.+(png|jpg|gif|svg)')
+    .pipe(cache(imagemin()))
+    .pipe(gulp.dest('dist/images'))
 });
