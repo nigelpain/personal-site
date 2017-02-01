@@ -7,9 +7,7 @@ $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [
 <html>
   <head>
     <title>Nigel Pain Photography - Contact</title>
-    <!--build:css css/styles.min.css-->
-    <link href="css/styles.css", type="text/css", rel="stylesheet">
-    <!--endbuild-->
+    <link href="css/main.css", type="text/css", rel="stylesheet">
   </head>
   <body>
     <nav>

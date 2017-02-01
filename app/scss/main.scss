@@ -1,7 +1,9 @@
 /* Import the 960 grid system to help define layout */
-@import url("960_12_col.css");
+@import '960_12_col';
 /* Import fonts used for website */
-@import url("fonts.css");
+@import 'fonts';
+/* Import lightbox styling for gallery */
+@import 'lightbox';
 
 /*General Styles*/
 body {

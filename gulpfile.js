@@ -12,9 +12,9 @@ gulp.task('default', function(callback) {
   runSequence('browserSync', 'sass', 'watch', callback)
 });
 
-// Compile all sass files into css
+// Compile main sass file that imports others into css
 gulp.task('sass', function() {
-  return gulp.src('app/scss/**/*.scss')
+  return gulp.src('app/scss/main.scss')
     .pipe(sass())
     .pipe(gulp.dest('app/css'))
     .pipe(browserSync.reload({
@@ -40,11 +40,17 @@ gulp.task('watch', function() {
   gulp.watch('app/js/**/*.js', browserSync.reload);
 });
 
-// Concatenate javascript and css files and perform minification on the results
-gulp.task('useref', function() {
+// Concatenate javascript and perform minification on the results
+gulp.task('jsmin', function() {
   return gulp.src(['app/*.html', 'app/*.php'])
     .pipe(useref())
     .pipe(gulpIf('*.js', uglify()))
-    .pipe(gulpIf('*.css', cssnano()))
     .pipe(gulp.dest('dist'))
+});
+
+// Perform minification on main css file
+gulp.task('cssmin', function() {
+  return gulp.src('app/css/main.css')
+    .pipe(cssnano())
+    .pipe(gulp.dest('dist/css'))
 });
