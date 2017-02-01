@@ -7,4 +7,4 @@ rm do_rsa.enc # Don't need it anymore
 chmod 600 do_rsa
 mv do_rsa ~/.ssh/id_rsa
 
-npm install
+npm install -g gulp
