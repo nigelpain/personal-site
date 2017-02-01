@@ -7,6 +7,7 @@ var uglify = require('gulp-uglify');
 var cssnano = require('gulp-cssnano');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
+var del = require('del');
 var runSequence = require('run-sequence');
 
 // Run the various gulp tasks in order due to dependencies
@@ -68,4 +69,9 @@ gulp.task('images', function() {
 gulp.task('fonts', function() {
   return gulp.src('app/fonts/**/*')
     .pipe(gulp.dest('dist/fonts'))
+});
+
+// Clean up the dist folder
+gulp.task('clean:dist', function() {
+  return del.sync('dist')
 });
