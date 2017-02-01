@@ -10,9 +10,15 @@ var cache = require('gulp-cache');
 var del = require('del');
 var runSequence = require('run-sequence');
 
-// Run the various gulp tasks in order due to dependencies
+// Run the various gulp development tasks
 gulp.task('default', function(callback) {
-  runSequence('browserSync', 'sass', 'watch', callback)
+  runSequence(['sass', 'browserSync', 'watch'], callback)
+});
+
+// Clean up previous dist and build new dist from assets
+gulp.task('build', function(callback) {
+  runSequence('clean:dist', 'sass',
+    ['javascript', 'css', 'images', 'fonts'], callback)
 });
 
 // Compile main sass file that imports others into css
