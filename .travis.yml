@@ -1,7 +1,10 @@
-language: php, node_js
+language: node_js
+node_js:
+  - "node"
 addons:
   ssh_known_hosts: 178.62.24.126
 before_install:
   - bash _scripts/install.sh
+  - npm install -g gulp
 script:
   - bash _scripts/deploy.sh

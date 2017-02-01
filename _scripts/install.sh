@@ -6,5 +6,3 @@ openssl aes-256-cbc -K $encrypted_73ed489ea1c6_key -iv $encrypted_73ed489ea1c6_i
 rm do_rsa.enc # Don't need it anymore
 chmod 600 do_rsa
 mv do_rsa ~/.ssh/id_rsa
-
-npm install -g gulp
