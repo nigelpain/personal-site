@@ -1,7 +1,9 @@
 /* Import the 960 grid system to help define layout */
-@import url("960_12_col.css");
+@import '960_12_col';
 /* Import fonts used for website */
-@import url("fonts.css");
+@import 'fonts';
+/* Import lightbox styling for gallery */
+@import 'lightbox';
 
 /*General Styles*/
 body {
@@ -12,7 +14,7 @@ nav {
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 100%;
+  width: percentage(10/10);
   background-color: #2E1915;
   border-bottom: 3px solid #F1D5B9;
   text-align: center;

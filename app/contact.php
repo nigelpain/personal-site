@@ -7,13 +7,13 @@ $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [
 <html>
   <head>
     <title>Nigel Pain Photography - Contact</title>
-    <link href="css/styles.css", type="text/css", rel="stylesheet">
+    <link href="css/main.css", type="text/css", rel="stylesheet">
   </head>
   <body>
     <nav>
       <ul>
         <li><a href="photography.html" class="navbtn">Home</a></li>
-        <li><a href="gallery/index.html" class="navbtn">Gallery</a></li>
+        <li><a href="gallery.html" class="navbtn">Gallery</a></li>
         <li><a href="#" class="navbtn">Blog</a></li>
         <li><a href="about.html" class="navbtn">About</a></li>
         <li><a href="contact.php" class="navbtncur">Contact</a></li>
@@ -21,7 +21,7 @@ $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [
     </nav>
     <div id="page" class="container_12 clearfix">
       <header class="grid_12">
-        <img src="./images/Header Logo.png" alt="Website Logo">
+        <img src="images/Header Logo.png" alt="Website Logo">
       </header>
 
       <div id="columnLeft" class="grid_6">
@@ -64,7 +64,7 @@ $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [
 
       <div id="columnRight" class="grid_6">
         <div id="phoneDetails">
-          <img id="phoneIcon" src="./images/Phone Icon.png" alt="Phone Icon">
+          <img id="phoneIcon" src="images/Phone Icon.png" alt="Phone Icon">
           <h2 class="sectionHeader">Audiophone</h2>
           <p>If you prefer the sound of a human voice then feel free to call me on:</p>
           <p><b>07527 983268</b></p>

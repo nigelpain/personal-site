@@ -1,8 +1,8 @@
 #!/bin/bash
 set -x
 if [ $TRAVIS_BRANCH == 'master' ] ; then
-    cp -R html deploy
-    cd deploy
+    gulp build
+    cd dist
     git init
 
     git remote add do_server "mr_monkey@178.62.24.126:/var/www"

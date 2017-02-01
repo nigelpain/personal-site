@@ -2,13 +2,13 @@
 <html>
   <head>
     <title>Nigel Pain Photography - Home</title>
-    <link href="css/styles.css", type="text/css", rel="stylesheet">
+    <link href="css/main.css", type="text/css", rel="stylesheet">
   </head>
   <body>
     <nav>
       <ul>
         <li><a href="photography.html" class="navbtncur">Home</a></li>
-        <li><a href="gallery/index.html" class="navbtn">Gallery</a></li>
+        <li><a href="gallery.html" class="navbtn">Gallery</a></li>
         <li><a href="#" class="navbtn">Blog</a></li>
         <li><a href="about.html" class="navbtn">About</a></li>
         <li><a href="contact.php" class="navbtn">Contact</a></li>
@@ -18,7 +18,7 @@
     <div id="page" class="container_12 clearfix">
 
       <header class="grid_12">
-        <img src="./images/Header Logo.png" alt="Website Logo">
+        <img src="images/Header Logo.png" alt="Website Logo">
       </header>
 
       <div id="columnLeft" class="grid_6">
@@ -35,12 +35,16 @@
         <p>At the moment this website is under construction (if you can't tell from the relative lack of content and sometimes dodgy presentation). However there are some examples of my photographic works over in the gallery and if you like what you see then feel free to get in touch to say "hey good job", or "I would like to ask about prints", just hopefully nothing along the lines of "I am outside your bedroom window with a camera please turn around so I can get a better view". I hope you enjoy using this site and come back to check on it's progress!</p>
         <h2 class="sectionHeader">Latest Public Exposures</h2>
         <img id="recentPhotos" src="images/recent photos/First to Fall (website).jpg" alt="Recently Added Photos" />
-        <script src="js/recent_photos.js"></script>
-        <p><a href="gallery/index.html">See more snappings at the gallery...</a></p>
+
+        <p><a href="gallery.html">See more snappings at the gallery...</a></p>
       </div><!-- columnRight -->
 
     </div><!-- page -->
 
+    <!--build:js js/main.min.js-->
+    <script type="text/javascript" src="js/recent_photos.js"></script>
+    <script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
+    <!--endbuild-->
     <!-- google analytics code -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -50,7 +54,6 @@
 
       ga('create', 'UA-62904127-1', 'auto');
       ga('send', 'pageview');
-
     </script>
   </body>
 </html>
