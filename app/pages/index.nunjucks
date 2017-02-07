@@ -1,0 +1,12 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+  <p>
+    This site is currently undergoing a re-envisioning of sorts, kinda like
+    it hiked up a mountain in the himalayas and discovered something new about
+    itself.
+  </p>
+  <p>
+    If you would like to access the old site <a href="photography.html">click here</a>
+  </p>
+{% endblock %}
