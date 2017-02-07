@@ -6,14 +6,26 @@
 </head>
 <body>
   
-  <p>
-    This site is currently undergoing a re-envisioning of sorts, kinda like
-    it hiked up a mountain in the himalayas and discovered something new about
-    itself.
-  </p>
-  <p>
-    If you would like to access the old site <a href="photography.html">click here</a>
-  </p>
+
+
+  <nav>
+    <ul>
+    <li><a href="index.html" class=" navbtncur ">Home</a></li>
+      <li><a href="photography.html" class=" navbtn ">Photography</a></li>
+      <li><a href="gallery.html" class=" navbtn ">Gallery</a></li>
+      <li><a href="#" class="navbtn">Blog</a></li>
+      <li><a href="about.html" class=" navbtn ">About</a></li>
+      <li><a href="contact.php" class=" navbtn ">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="page" class="container_12 clearfix">
+    <p>
+      This site is currently undergoing a re-envisioning of sorts, kinda like
+      it hiked up a mountain in the himalayas and discovered something new about
+      itself.
+    </p>
+  </div>
 
 
   <!--build:js js/main.min.js-->

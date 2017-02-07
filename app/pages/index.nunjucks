@@ -1,12 +1,13 @@
 {% extends "layout.nunjucks" %}
 
 {% block content %}
-  <p>
-    This site is currently undergoing a re-envisioning of sorts, kinda like
-    it hiked up a mountain in the himalayas and discovered something new about
-    itself.
-  </p>
-  <p>
-    If you would like to access the old site <a href="photography.html">click here</a>
-  </p>
+{% import "macros/navigation.nunjucks" as nav %}
+{{nav.current('home')}}
+  <div id="page" class="container_12 clearfix">
+    <p>
+      This site is currently undergoing a re-envisioning of sorts, kinda like
+      it hiked up a mountain in the himalayas and discovered something new about
+      itself.
+    </p>
+  </div>
 {% endblock %}
