@@ -9,6 +9,7 @@ var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 var del = require('del');
 var runSequence = require('run-sequence');
+var nunjucksRender = require('gulp-nunjucks-render');
 
 // Run the various gulp development tasks
 gulp.task('default', function(callback) {
@@ -17,7 +18,7 @@ gulp.task('default', function(callback) {
 
 // Clean up previous dist and build new dist from assets
 gulp.task('build', function(callback) {
-  runSequence('clean:dist', 'sass',
+  runSequence('clean:dist', 'sass', 'nunjucks', 
     ['javascript', 'css', 'images', 'fonts'], callback)
 });
 
@@ -43,9 +44,10 @@ gulp.task('browserSync', function() {
 
 // Watch for any code changes and reload the page
 gulp.task('watch', function() {
-  gulp.watch('app/*.php', browserSync.reload);
+  gulp.watch(['app/pages/**/*.+(html|php|nunjucks)',
+    'app/templates/**/*.+(html|php|nunjucks)'], ['nunjucks'])
+  gulp.watch(['app/*.html', 'app/*.php'], browserSync.reload);
   gulp.watch('app/scss/**/*.scss', ['sass']);
-  gulp.watch('app/*.html', browserSync.reload);
   gulp.watch('app/js/**/*.js', browserSync.reload);
 });
 
@@ -80,4 +82,14 @@ gulp.task('fonts', function() {
 // Clean up the dist folder
 gulp.task('clean:dist', function() {
   return del.sync('dist')
+});
+
+// Convert nunjucks templates and pages into php files
+gulp.task('nunjucks', function() {
+  return gulp.src('app/pages/**/*.+(html|php|nunjucks)')
+  .pipe(nunjucksRender({
+    path: ['app/templates'],
+    ext: '.php'
+  }))
+  .pipe(gulp.dest('app'))
 });
