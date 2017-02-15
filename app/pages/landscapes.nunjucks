@@ -37,6 +37,12 @@
         </a>
         <p>River Runs Through Murkwood</p>
     </div><!-- galleryThumb -->
+    <div class="galleryThumb grid_3">
+        <a href="images/gallery/landscapes/Turn of the Seasons (website).jpg" rel="lightbox" data-lightbox="landscapes" title="With photography sometimes it pays to return to a familiar location with a fresh pair of eyes, and well you can't get fresher than another persons! I hadn't clocked that this bend in the river teign would make such a lovely photograph until I went out one autumn morning with my brother and his mate.">
+          <img class="imageThumb" src="images/gallery/landscapes/Turn of the Seasons (website).jpg" alt="An image of a river bend in autumn" title="Turn of the Seasons" />
+        </a>
+        <p>Turn of the Seasons</p>
+    </div><!-- galleryThumb -->
 
   </div>
 
