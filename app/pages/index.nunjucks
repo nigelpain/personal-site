@@ -1,13 +1,22 @@
 {% extends "layout.nunjucks" %}
 
 {% block content %}
+
 {% import "macros/navigation.nunjucks" as nav %}
 {{nav.current('home')}}
+
   <div id="page" class="container_12 clearfix">
-    <p>
-      This site is currently undergoing a re-envisioning of sorts, kinda like
-      it hiked up a mountain in the himalayas and discovered something new about
-      itself.
-    </p>
+
+    {% include "partials/header.nunjucks" %}
+
+    <div id="columnLeft" class="grid_12">
+      <p>
+        This site is currently undergoing a re-envisioning of sorts, kinda like
+        it hiked up a mountain in the himalayas and discovered something new about
+        itself.
+      </p>
+    </div>
+    
   </div>
+
 {% endblock %}

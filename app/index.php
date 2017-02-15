@@ -8,24 +8,36 @@
   
 
 
+
   <nav>
     <ul>
-    <li><a href="index.html" class=" navbtncur ">Home</a></li>
-      <li><a href="photography.html" class=" navbtn ">Photography</a></li>
-      <li><a href="gallery.html" class=" navbtn ">Gallery</a></li>
+      <li><a href="index.php" class=" navbtncur ">Home</a></li>
+      <li><a href="photography.php" class=" navbtn ">Photography</a></li>
+      <li><a href="gallery.php" class=" navbtn ">Gallery</a></li>
       <li><a href="#" class="navbtn">Blog</a></li>
-      <li><a href="about.html" class=" navbtn ">About</a></li>
+      <li><a href="about.php" class=" navbtn ">About</a></li>
       <li><a href="contact.php" class=" navbtn ">Contact</a></li>
     </ul>
   </nav>
 
+
   <div id="page" class="container_12 clearfix">
-    <p>
-      This site is currently undergoing a re-envisioning of sorts, kinda like
-      it hiked up a mountain in the himalayas and discovered something new about
-      itself.
-    </p>
+
+    <header class="grid_12">
+  <img src="images/Header Logo.png" alt="Website Logo">
+</header>
+
+
+    <div id="columnLeft" class="grid_12">
+      <p>
+        This site is currently undergoing a re-envisioning of sorts, kinda like
+        it hiked up a mountain in the himalayas and discovered something new about
+        itself.
+      </p>
+    </div>
+    
   </div>
+
 
 
   <!--build:js js/main.min.js-->

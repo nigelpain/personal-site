@@ -1,0 +1,40 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% import "macros/navigation.nunjucks" as nav %}
+{{nav.current('gallery')}}
+
+  <div id="page" class="container_12 clearfix">
+
+    {% include "partials/header.nunjucks" %}
+
+    <div id="galleries" class="container_12">
+      <div class="grid_12">
+        <h1 id="pageHeader">Welcome to the Gallery</h1>
+      </div>
+
+      <div class="galleryThumb grid_3">
+          <a href="wildlife.php" onclick="ga('send', 'event', 'View Gallery', 'Click', 'Wildlife Gallery');">
+            <img class="imageThumb" src="images/gallery/wildlife/Little Nipper (website).jpg" alt="An image of a baby crocodile resting on a log" title="Little Nipper" />
+          </a>
+          <p>Wildlife</p>
+      </div><!-- galleryThumb -->
+
+      <div class="galleryThumb grid_3">
+          <a href="stilllife.php" onclick="ga('send', 'event', 'View Gallery', 'Click', 'Still Life Gallery');">
+            <img class="imageThumb" src="images/gallery/still life/First to Fall (website).jpg" alt="An image of a fallen apple amongst autumn leaves" title="First to Fall" />
+          </a>
+          <p>Still Life</p>
+      </div><!-- galleryThumb -->
+
+      <div class="galleryThumb grid_3">
+          <a href="landscapes.php" onclick="ga('send', 'event', 'View Gallery', 'Click', 'Landscapes Gallery');">
+            <img class="imageThumb" src="images/gallery/landscapes/Heavens Ridge (website).jpg" alt="An image of the devils cauldron section of lydford gorge" title="Devils Cauldron"/>
+          </a>
+          <p>Landscapes</p>
+      </div><!-- galleryThumb -->
+
+  </div>
+
+{% endblock %}

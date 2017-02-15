@@ -1,11 +1,11 @@
 {% macro current(currentPage='home') %}
   <nav>
     <ul>
-      <li><a href="index.html" class="{% if currentPage == 'home' %} navbtncur {% else %} navbtn {% endif %}">Home</a></li>
-      <li><a href="photography.html" class="{% if currentPage == 'photography' %} navbtncur {% else %} navbtn {% endif %}">Photography</a></li>
-      <li><a href="gallery.html" class="{% if currentPage == 'gallery' %} navbtncur {% else %} navbtn {% endif %}">Gallery</a></li>
+      <li><a href="index.php" class="{% if currentPage == 'home' %} navbtncur {% else %} navbtn {% endif %}">Home</a></li>
+      <li><a href="photography.php" class="{% if currentPage == 'photography' %} navbtncur {% else %} navbtn {% endif %}">Photography</a></li>
+      <li><a href="gallery.php" class="{% if currentPage == 'gallery' %} navbtncur {% else %} navbtn {% endif %}">Gallery</a></li>
       <li><a href="#" class="navbtn">Blog</a></li>
-      <li><a href="about.html" class="{% if currentPage == 'about' %} navbtncur {% else %} navbtn {% endif %}">About</a></li>
+      <li><a href="about.php" class="{% if currentPage == 'about' %} navbtncur {% else %} navbtn {% endif %}">About</a></li>
       <li><a href="contact.php" class="{% if currentPage == 'contact' %} navbtncur {% else %} navbtn {% endif %}">Contact</a></li>
     </ul>
   </nav>

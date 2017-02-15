@@ -1,0 +1,32 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% import "macros/navigation.nunjucks" as nav %}
+{{nav.current('gallery')}}
+
+  <div id="page" class="container_12 clearfix">
+
+    {% include "partials/header.nunjucks" %}
+
+    <div class="grid_12">
+      <h1 id="pageHeader">Still Life Gallery</h1>
+    </div>
+
+    <div class="galleryThumb grid_3">
+        <a href="images/gallery/still life/First to Fall (website).jpg" rel="lightbox" data-lightbox="still life" title="With this photograph I wanted to try and capture that feeling when the first apples of the season have fallen, a sign of all the tasty things to come!">
+          <img class="imageThumb" src="images/gallery/still life/First to Fall (website).jpg" alt="An image of a fallen apple amongst autumn leaves" title="First to Fall" />
+        </a>
+        <p>First to Fall</p>
+    </div><!-- galleryThumb -->
+
+    <div class="galleryThumb grid_3">
+        <a href="images/gallery/still life/Forgotten Love (website).jpg" rel="lightbox" data-lightbox="still life" title="This was one of my first still life photography projects that I undertook! My aim with this photo was to convey a sombre mood and really provoke the viewer into thinking beyond the photo. What is in the letter? And what happened to it's recipient?">
+          <img class="imageThumb" src="images/gallery/still life/Forgotten Love (website).jpg" alt="An image of a forgotten letter of love" title="Forgotten Love" />
+        </a>
+        <p>Forgotten Love</p>
+    </div><!-- galleryThumb -->
+
+  </div>
+
+{% endblock %}
