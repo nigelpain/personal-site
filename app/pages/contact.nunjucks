@@ -2,6 +2,11 @@
 
 {% block content %}
 
+<?php
+session_start();
+$confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [];
+?>
+
 {% import "macros/navigation.nunjucks" as nav %}
 {{nav.current('contact')}}
 
@@ -64,5 +69,9 @@
     </div><!-- columnRight -->
 
   </div>
+  
+<?php
+unset($_SESSION['confirmation']);
+?>
 
 {% endblock %}

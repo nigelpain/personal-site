@@ -7,6 +7,11 @@
 <body>
   
 
+<?php
+session_start();
+$confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [];
+?>
+
 
 
   <nav>
@@ -83,6 +88,10 @@
     </div><!-- columnRight -->
 
   </div>
+  
+<?php
+unset($_SESSION['confirmation']);
+?>
 
 
 
