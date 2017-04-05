@@ -2,12 +2,10 @@
 
 {% block content %}
 
-{% import "macros/navigation.nunjucks" as nav %}
-{{nav.current('gallery')}}
+{% import "macros/header.nunjucks" as nav %}
+{{nav.current('photography')}}
 
   <div id="page" class="container_12 clearfix">
-
-    {% include "partials/header.nunjucks" %}
 
     <div class="grid_12">
       <h1 id="pageHeader">Still Life Gallery</h1>
