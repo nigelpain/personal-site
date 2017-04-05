@@ -2,12 +2,10 @@
 
 {% block content %}
 
-{% import "macros/navigation.nunjucks" as nav %}
+{% import "macros/header.nunjucks" as nav %}
 {{nav.current('about')}}
 
   <div id="page" class="container_12 clearfix">
-
-    {% include "partials/header.nunjucks" %}
 
     <div id="columnLeft" class="grid_7">
       <h1 id="pageHeader">The Man Behind the Lens</h1>

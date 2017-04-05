@@ -7,12 +7,10 @@ session_start();
 $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [];
 ?>
 
-{% import "macros/navigation.nunjucks" as nav %}
+{% import "macros/header.nunjucks" as nav %}
 {{nav.current('contact')}}
 
   <div id="page" class="container_12 clearfix">
-
-    {% include "partials/header.nunjucks" %}
 
     <div id="columnLeft" class="grid_6">
       <h1 id="pageHeader">Get in Touch</h1>
@@ -69,7 +67,7 @@ $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [
     </div><!-- columnRight -->
 
   </div>
-  
+
 <?php
 unset($_SESSION['confirmation']);
 ?>

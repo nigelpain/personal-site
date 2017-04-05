@@ -2,12 +2,10 @@
 
 {% block content %}
 
-{% import "macros/navigation.nunjucks" as nav %}
-{{nav.current('home')}}
+{% import "macros/header.nunjucks" as nav %}
+{{nav.current('')}}
 
   <div id="page" class="container_12 clearfix">
-
-    {% include "partials/header.nunjucks" %}
 
     <div id="columnLeft" class="grid_12">
       <p>
@@ -16,7 +14,7 @@
         itself.
       </p>
     </div>
-    
+
   </div>
 
 {% endblock %}

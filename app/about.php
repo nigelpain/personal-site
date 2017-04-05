@@ -9,24 +9,30 @@
 
 
 
+<header>
+  <div id="websiteLogo">
+    <a href="index.php">
+      <img src="images/header_logo.png" alt="Website Logo">
+    </a>
+  </div>
   <nav>
     <ul>
-      <li><a href="index.php" class=" navbtn ">Home</a></li>
       <li><a href="photography.php" class=" navbtn ">Photography</a></li>
-      <li><a href="gallery.php" class=" navbtn ">Gallery</a></li>
-      <li><a href="#" class="navbtn">Blog</a></li>
+      <li><a href="design.php" class=" navbtn ">Design</a></li>
       <li><a href="about.php" class=" navbtncur ">About</a></li>
       <li><a href="contact.php" class=" navbtn ">Contact</a></li>
     </ul>
   </nav>
+  <div id="callToAction">
+    <p>
+      Amateur Photographer Based in Devon<br>
+      <a href="gallery.php">check out my photos</a>
+    </p>
+  </div>
+</header>
 
 
   <div id="page" class="container_12 clearfix">
-
-    <header class="grid_12">
-  <img src="images/Header Logo.png" alt="Website Logo">
-</header>
-
 
     <div id="columnLeft" class="grid_7">
       <h1 id="pageHeader">The Man Behind the Lens</h1>
