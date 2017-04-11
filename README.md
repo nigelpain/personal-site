@@ -6,14 +6,15 @@ This is the repo for my photography website which can be found at http://www.nig
 
 ## Development
 
-In order to contribute to this site you will need:
+In order to contribute to this site you will need to do the following:
 
-* Installed the latest stable version of node_js https://nodejs.org/en/download/
-* Installed the latest stable version of MAMP https://www.mamp.info/en/downloads/
+* Install the latest stable version of node_js https://nodejs.org/en/download/
+* Install the latest stable version of MAMP https://www.mamp.info/en/downloads/
 * Clone down the contents of the repository using whichever method you prefer
-* Then run `npm install` to install all of the dependencies
+* Then run `npm install gulp -g` to be able to run the gulp tasks
+* Finally run `npm install` to install all of the other dependencies
 
-Then it is just a case of starting a MAMP server running on `localhost:8888`, running the command `gulp` to setup the development watcher task and getting to work!
+Then it is just a case of starting a MAMP server running on `localhost:8888` and pointing at the app sub-folder within where you cloned down this repo, running the command `gulp` to setup the development watcher task and getting to work!
 
 ## Acknowledgements
 
