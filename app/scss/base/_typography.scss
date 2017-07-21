@@ -1,0 +1,30 @@
+p {
+  color: $base-text-colour;
+  font-size: 16px;
+  font-family: $body-font-family;
+}
+
+a {
+  color: $link-text-colour;
+}
+
+#pageHeader {
+  color: $base-text-colour;
+  font-size: 42px;
+  font-family: $header-font-family;
+  text-shadow: 2px 2px 7px #111111;
+}
+
+.sectionHeader {
+  color: $base-text-colour;
+  font-size: 32px;
+  font-family: $header-font-family;
+  text-shadow: 2px 2px 7px #111111;
+}
+
+.subHeader {
+  color: $base-text-colour;
+  font-size: 24px;
+  font-family: $header-font-family;
+  text-shadow: 2px 2px 7px #111111;
+}
