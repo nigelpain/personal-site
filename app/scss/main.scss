@@ -1,5 +1,6 @@
 @import 'base/typography';
 @import 'components/buttons';
+@import 'components/navigation';
 @import 'helpers/variables';
 @import 'vendor/960_12_col';
 @import 'vendor/lightbox';
@@ -64,26 +65,6 @@ nav li {
 
 #page {
   margin-top: 57px;
-}
-
-.navbtn {
-  text-decoration: none;
-  font-family: Arial, Verdana, sans-serif;
-  font-size: 150%;
-  font-weight: bold;
-  color: #ffffff;
-  text-shadow: 2px 2px 7px #111111;
-  padding: 0px 25px;
-}
-
-.navbtncur {
-  text-decoration: none;
-  font-family: Arial, Verdana, sans-serif;
-  font-size: 150%;
-  font-weight: bold;
-  color: #F1D5B9;
-  text-shadow: 2px 2px 7px #111111;
-  padding: 0px 25px;
 }
 
 /*Homepage Styles */
