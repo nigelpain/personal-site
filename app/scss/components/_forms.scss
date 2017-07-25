@@ -1,0 +1,27 @@
+#formMessage {
+  width: 85%;
+  padding: 10px;
+  border: 3px solid $cream;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-family: $base-font-family;
+  text-align: center;
+  color: $cream;
+}
+
+.formLabel {
+  float: left;
+  width: 20%;
+  padding: 5px 10px 5px 5px;
+  color: $white;
+  font-size: 16px;
+  font-family: $base-font-family;
+  text-align: right;
+}
+
+.formInput {
+  border: 2px solid $cream;
+  padding: 3px;
+  font-size: 16px;
+  font-family: $base-font-family;
+}
