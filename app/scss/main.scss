@@ -3,6 +3,7 @@
 @import 'components/navigation';
 @import 'components/forms';
 @import 'helpers/variables';
+@import 'pages/galleries';
 @import 'vendor/960_12_col';
 @import 'vendor/lightbox';
 @import 'vendor/fonts';
@@ -78,35 +79,6 @@ nav li {
   width: 400px;
   height: auto;
   border: 3px solid #F1D5B9;
-}
-
-/*Gallery Styles*/
-#galleries {
-  overflow: auto;
-  width: 100%;
-}
-
-.gallerylinks {
-  height: 300px;
-  background-color: #efefef;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.galleryThumb {
-  height: 165px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-
-.imageThumb {
-  display: block;
-  max-height: 75%;
-  margin: 0px auto;
-  border: 2px solid #F1D5B9;
-  box-shadow: 2px 2px 2px #111111;
 }
 
 /*About Styles*/
