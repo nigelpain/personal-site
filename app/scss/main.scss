@@ -4,6 +4,7 @@
 @import 'components/forms';
 @import 'components/images';
 @import 'helpers/variables';
+@import 'layout/header';
 @import 'pages/galleries';
 @import 'vendor/960_12_col';
 @import 'vendor/lightbox';
@@ -17,33 +18,6 @@ body {
 
 a:hover {
   cursor: pointer;
-}
-
-header {
-  width: 100%;
-  height: 600px;
-  background-image: url("../images/backgrounds/call_to_action.jpg");
-  background-size: cover;
-  border-bottom: 3px solid #F1D5B9;
-}
-
-nav {
-  position: absolute;
-  top: 10%;
-  right: 5%;
-  max-width: 50%;
-  height: auto;
-}
-
-nav li {
-  display: inline;
-}
-
-#callToAction {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 #callToAction p {
