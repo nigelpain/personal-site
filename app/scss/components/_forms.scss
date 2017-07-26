@@ -3,7 +3,7 @@
   padding: 10px;
   border: $medium-cream-border;
   margin-bottom: 40px;
-  font-size: 16px;
+  font-size: $medium-font;
   font-family: $base-font-family;
   text-align: center;
   color: $cream;
@@ -14,7 +14,7 @@
   width: 20%;
   padding: 5px 10px 5px 5px;
   color: $white;
-  font-size: 16px;
+  font-size: $medium-font;
   font-family: $base-font-family;
   text-align: right;
 }
@@ -22,6 +22,6 @@
 .formInput {
   border: $thin-cream-border;
   padding: 3px;
-  font-size: 16px;
+  font-size: $medium-font;
   font-family: $base-font-family;
 }

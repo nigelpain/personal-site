@@ -1,6 +1,10 @@
+html {
+  font-size: 62.5%;
+}
+
 p {
   color: $white;
-  font-size: 16px;
+  font-size: $medium-font;
   font-family: $base-font-family;
 }
 
@@ -14,21 +18,21 @@ a {
 
 #pageHeader {
   color: $white;
-  font-size: 42px;
+  font-size: $xxlarge-font;
   font-family: $accent-font-family;
   text-shadow: 2px 2px 7px #111111;
 }
 
 .sectionHeader {
   color: $white;
-  font-size: 32px;
+  font-size: $xlarge-font;
   font-family: $accent-font-family;
   text-shadow: 2px 2px 7px #111111;
 }
 
 .subHeader {
   color: $white;
-  font-size: 24px;
+  font-size: $large-font;
   font-family: $accent-font-family;
   text-shadow: 2px 2px 7px #111111;
 }

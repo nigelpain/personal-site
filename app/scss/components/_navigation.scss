@@ -1,7 +1,7 @@
 .navbtn {
   text-decoration: none;
   font-family: $base-font-family;
-  font-size: 150%;
+  font-size: $large-font;
   font-weight: bold;
   color: $white;
   text-shadow: 2px 2px 7px #111111;
@@ -11,7 +11,7 @@
 .navbtncur {
   text-decoration: none;
   font-family: $base-font-family;
-  font-size: 150%;
+  font-size: $large-font;
   font-weight: bold;
   color: $cream;
   text-shadow: 2px 2px 7px #111111;
@@ -20,7 +20,7 @@
 
 #callToAction p {
   color: $white;
-  font-size: 200%;
+  font-size: $xlarge-font;
   font-family: $accent-font-family;
   text-shadow: 2px 2px 7px #111111;
   text-align: center;
