@@ -17,3 +17,11 @@
   text-shadow: 2px 2px 7px #111111;
   padding: 0px 25px;
 }
+
+#callToAction p {
+  color: $white;
+  font-size: 200%;
+  font-family: $accent-font-family;
+  text-shadow: 2px 2px 7px #111111;
+  text-align: center;
+}

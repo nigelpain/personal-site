@@ -6,6 +6,10 @@ p {
 
 a {
   color: $cream;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 #pageHeader {

@@ -3,69 +3,12 @@
 @import 'components/navigation';
 @import 'components/forms';
 @import 'components/images';
+@import 'hacks/shame';
 @import 'helpers/variables';
 @import 'layout/header';
 @import 'pages/galleries';
+@import 'pages/contact';
+@import 'pages/home';
 @import 'vendor/960_12_col';
 @import 'vendor/lightbox';
 @import 'vendor/fonts';
-
-/*General Styles*/
-body {
-  background-image: url("../images/backgrounds/page_background.jpg");
-  margin: 0px;
-}
-
-a:hover {
-  cursor: pointer;
-}
-
-#callToAction p {
-  color: #ffffff;
-  font-size: 200%;
-  font-family: 'kaushan_scriptregular', Arial, sans-serif;
-  text-shadow: 2px 2px 7px #111111;
-  text-align: center;
-}
-
-#page {
-  margin-top: 57px;
-}
-
-/*Homepage Styles */
-#siteSummary {
-  padding: 30px 5px;
-  text-align: center;
-}
-
-/*Contact Styles*/
-#contactIntro {
-  margin-bottom: 60px;
-}
-
-#phoneDetails {
-  overflow: auto;
-  margin-top: 80px;
-  margin-left: 30px;
-}
-
-#socialLinks {
-  overflow: auto;
-  margin-top: 70px;
-  margin-left: 80px;
-}
-
-#contactForm {
-  overflow: auto;
-  margin: 30px 0px;
-}
-
-.formElement {
-  margin: 10px;
-  padding-bottom: 10px;
-}
-
-.formSubmit {
-  float: right;
-  padding-right: 40px;
-}
