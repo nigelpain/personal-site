@@ -20,19 +20,19 @@ a {
   color: $white;
   font-size: $xxlarge-font;
   font-family: $accent-font-family;
-  text-shadow: 2px 2px 7px #111111;
+  text-shadow: $text-shadow;
 }
 
 .sectionHeader {
   color: $white;
   font-size: $xlarge-font;
   font-family: $accent-font-family;
-  text-shadow: 2px 2px 7px #111111;
+  text-shadow: $text-shadow;
 }
 
 .subHeader {
   color: $white;
   font-size: $large-font;
   font-family: $accent-font-family;
-  text-shadow: 2px 2px 7px #111111;
+  text-shadow: $text-shadow;
 }

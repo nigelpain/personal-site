@@ -5,13 +5,13 @@
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  box-shadow: 2px 2px 2px #111111;
+  box-shadow: $box-shadow;
 }
 
 .formButton {
   background-color: $cream;
   border: $thin-cream-border;
-  box-shadow: 1px 1px 1px #111111;
+  box-shadow: $box-shadow;
   color: $white;
   font-size: $medium-font;
   font-weight: bold;

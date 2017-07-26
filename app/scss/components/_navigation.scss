@@ -4,7 +4,7 @@
   font-size: $large-font;
   font-weight: bold;
   color: $white;
-  text-shadow: 2px 2px 7px #111111;
+  text-shadow: $text-shadow;
   padding: 0px 25px;
 }
 
@@ -14,7 +14,7 @@
   font-size: $large-font;
   font-weight: bold;
   color: $cream;
-  text-shadow: 2px 2px 7px #111111;
+  text-shadow: $text-shadow;
   padding: 0px 25px;
 }
 
@@ -22,6 +22,6 @@
   color: $white;
   font-size: $xlarge-font;
   font-family: $accent-font-family;
-  text-shadow: 2px 2px 7px #111111;
+  text-shadow: $text-shadow;
   text-align: center;
 }
