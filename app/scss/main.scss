@@ -2,6 +2,7 @@
 @import 'components/buttons';
 @import 'components/navigation';
 @import 'components/forms';
+@import 'components/images';
 @import 'helpers/variables';
 @import 'pages/galleries';
 @import 'vendor/960_12_col';
@@ -38,18 +39,6 @@ nav li {
   display: inline;
 }
 
-#websiteLogo {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  max-width: 35%;
-  height: auto;
-}
-
-#websiteLogo img {
-  width: 100%;
-}
-
 #callToAction {
   position: absolute;
   top: 50%;
@@ -75,27 +64,9 @@ nav li {
   text-align: center;
 }
 
-#recentPhotos {
-  width: 400px;
-  height: auto;
-  border: 3px solid #F1D5B9;
-}
-
-/*About Styles*/
-#mePhoto {
-  border: 3px solid #F1D5B9;
-  margin-top: 70px;
-  margin-left: 20px;
-}
-
 /*Contact Styles*/
 #contactIntro {
   margin-bottom: 60px;
-}
-
-#phoneIcon {
-  float: left;
-  margin: 30px 20px;
 }
 
 #phoneDetails {

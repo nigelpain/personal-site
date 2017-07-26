@@ -1,0 +1,28 @@
+#websiteLogo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  max-width: 35%;
+  height: auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+#recentPhotos {
+  width: 400px;
+  height: auto;
+  border: 3px solid $cream;
+}
+
+#mePhoto {
+  border: 3px solid $cream;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+#phoneIcon {
+  float: left;
+  margin: 30px 20px;
+}
