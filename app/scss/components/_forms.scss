@@ -1,7 +1,7 @@
 #formMessage {
   width: 85%;
   padding: 10px;
-  border: 3px solid $cream;
+  border: $medium-cream-border;
   margin-bottom: 40px;
   font-size: 16px;
   font-family: $base-font-family;
@@ -20,7 +20,7 @@
 }
 
 .formInput {
-  border: 2px solid $cream;
+  border: $thin-cream-border;
   padding: 3px;
   font-size: 16px;
   font-family: $base-font-family;

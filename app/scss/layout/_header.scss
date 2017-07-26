@@ -3,7 +3,7 @@ header {
   height: 600px;
   background-image: url("../images/backgrounds/call_to_action.jpg");
   background-size: cover;
-  border-bottom: 3px solid $cream;
+  border-bottom: $medium-cream-border;
 }
 
 nav {
