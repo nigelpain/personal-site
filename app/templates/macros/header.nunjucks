@@ -9,7 +9,7 @@
     <ul>
       <li><a href="photography.php" class="{% if currentPage == 'photography' %} navbtncur {% else %} navbtn {% endif %}">Photography</a></li>
       <li><a href="design.php" class="{% if currentPage == 'design' %} navbtncur {% else %} navbtn {% endif %}">Design</a></li>
-      <li><a href="blog.nigelpain.com" class="navbtn">Blog</a></li>
+      <li><a href="http://blog.nigelpain.com" class="navbtn">Blog</a></li>
       <li><a href="about.php" class="{% if currentPage == 'about' %} navbtncur {% else %} navbtn {% endif %}">About</a></li>
       <li><a href="contact.php" class="{% if currentPage == 'contact' %} navbtncur {% else %} navbtn {% endif %}">Contact</a></li>
     </ul>
