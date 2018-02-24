@@ -5,7 +5,7 @@ if [ $TRAVIS_BRANCH == 'master' ] ; then
     cd dist
     git init
 
-    git remote add do_server "mr_monkey@178.62.24.126:/var/www"
+    git remote add do_server "mr_monkey@178.62.24.126:/var/www/nigelpain.com/public_html"
     git config user.name "nigelpain"
     git config user.email "nigel.pain@digital.landregistry.gov.uk"
 
