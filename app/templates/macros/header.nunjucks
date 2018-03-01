@@ -1,24 +1,25 @@
 {% macro current(currentPage='') %}
-<header>
-  <div id="websiteLogo">
+<header class="header">
+  <div class="header__logo">
     <a href="index.php">
       <img src="images/header_logo.png" alt="Website Logo">
     </a>
   </div>
-  <nav>
+
+  <nav class="header__nav">
     <ul>
-      <li><a href="photography.php" class="{% if currentPage == 'photography' %} navbtncur {% else %} navbtn {% endif %}">Photography</a></li>
-      <li><a href="design.php" class="{% if currentPage == 'design' %} navbtncur {% else %} navbtn {% endif %}">Design</a></li>
-      <li><a href="http://blog.nigelpain.com" class="navbtn">Blog</a></li>
-      <li><a href="about.php" class="{% if currentPage == 'about' %} navbtncur {% else %} navbtn {% endif %}">About</a></li>
-      <li><a href="contact.php" class="{% if currentPage == 'contact' %} navbtncur {% else %} navbtn {% endif %}">Contact</a></li>
+      <li><a href="work.php" class="{% if currentPage == 'work' %} header__nav-link--cur {% else %} header__nav-link {% endif %}">Work</a></li>
+
+      <li><a href="ride.php" class="{% if currentPage == 'ride' %} header__nav-link--cur {% else %} header__nav-link {% endif %}">Ride</a></li>
+
+      <li><a href="eat.php" class="{% if currentPage == 'eat' %} header__nav-link--cur {% else %} header__nav-link {% endif %}">Eat</a></li>
+
+      <li><a href="play.php" class="{% if currentPage == 'play' %} header__nav-link--cur {% else %} header__nav-link {% endif %}">Play</a></li>
+
+      <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
+
+      <li><a href="contact.php" class="{% if currentPage == 'contact' %} header__nav-link--cur {% else %} header__nav-link {% endif %}">Contact</a></li>
     </ul>
   </nav>
-  <div id="callToAction">
-    <p>
-      Amateur Photographer Based in Devon<br>
-      <a href="gallery.php">check out my photos</a>
-    </p>
-  </div>
 </header>
 {% endmacro %}

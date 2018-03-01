@@ -9,26 +9,28 @@
 
 
 
-<header>
-  <div id="websiteLogo">
+<header class="header">
+  <div class="header__logo">
     <a href="index.php">
       <img src="images/header_logo.png" alt="Website Logo">
     </a>
   </div>
-  <nav>
+
+  <nav class="header__nav">
     <ul>
-      <li><a href="photography.php" class=" navbtn ">Photography</a></li>
-      <li><a href="design.php" class=" navbtn ">Design</a></li>
-      <li><a href="about.php" class=" navbtn ">About</a></li>
-      <li><a href="contact.php" class=" navbtn ">Contact</a></li>
+      <li><a href="work.php" class=" header__nav-link ">Work</a></li>
+
+      <li><a href="ride.php" class=" header__nav-link ">Ride</a></li>
+
+      <li><a href="eat.php" class=" header__nav-link ">Eat</a></li>
+
+      <li><a href="play.php" class=" header__nav-link ">Play</a></li>
+
+      <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
+
+      <li><a href="contact.php" class=" header__nav-link ">Contact</a></li>
     </ul>
   </nav>
-  <div id="callToAction">
-    <p>
-      Amateur Photographer Based in Devon<br>
-      <a href="gallery.php">check out my photos</a>
-    </p>
-  </div>
 </header>
 
 

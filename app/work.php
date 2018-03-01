@@ -18,7 +18,7 @@
 
   <nav class="header__nav">
     <ul>
-      <li><a href="work.php" class=" header__nav-link ">Work</a></li>
+      <li><a href="work.php" class=" header__nav-link--cur ">Work</a></li>
 
       <li><a href="ride.php" class=" header__nav-link ">Ride</a></li>
 
@@ -34,17 +34,6 @@
 </header>
 
 
-  <div id="page" class="container_12 clearfix">
-
-    <div id="columnLeft" class="grid_12">
-      <p>
-        This site is currently undergoing a re-envisioning of sorts, kinda like
-        it hiked up a mountain in the himalayas and discovered something new about
-        itself.
-      </p>
-    </div>
-
-  </div>
 
 
 

@@ -1,0 +1,9 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% import "macros/header.nunjucks" as nav %}
+{{nav.current('work')}}
+
+
+{% endblock %}
