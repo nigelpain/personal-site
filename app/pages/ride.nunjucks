@@ -3,7 +3,7 @@
 {% block content %}
 
 {% import "macros/navigation.nunjucks" as nav %}
-{{nav.current('work')}}
+{{nav.current('ride')}}
 
 
 {% endblock %}

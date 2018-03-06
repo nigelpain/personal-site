@@ -1,23 +1,18 @@
+@import 'utility/variables';
 @import 'components/navigation';
 @import 'components/images';
-@import 'layout/header';
-
-
-/* Import the 960 grid system to help define layout */
-@import '960_12_col';
-/* Import fonts used for website */
+@import 'vendor/reset';
 @import 'fonts';
-/* Import lightbox styling for gallery */
 @import 'lightbox';
+
 
 /*General Styles*/
 body {
-  background-image: url("../images/backgrounds/page_background.jpg");
   margin: 0px;
 }
 
 p {
-  color: #ffffff;
+  color: black;
   font-size: 16px;
   font-family: Arial, Verdana, sans-serif;
 }

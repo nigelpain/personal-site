@@ -14,29 +14,25 @@ $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [
 
 
 
-<header class="header">
-  <div class="header__logo">
-    <a href="index.php">
-      <img src="images/header_logo.png" alt="Website Logo">
-    </a>
-  </div>
+<nav class="navigation">
+  <a href="index.php">
+    <img class="logo" src="images/header_logo.png" alt="Website Logo">
+  </a>
 
-  <nav class="header__nav">
-    <ul>
-      <li><a href="work.php" class=" header__nav-link ">Work</a></li>
+  <ul class="navigation__list">
+    <li><a href="work.php" class="navigation__link ">Work</a></li>
 
-      <li><a href="ride.php" class=" header__nav-link ">Ride</a></li>
+    <li><a href="ride.php" class="navigation__link ">Ride</a></li>
 
-      <li><a href="eat.php" class=" header__nav-link ">Eat</a></li>
+    <li><a href="eat.php" class="navigation__link ">Eat</a></li>
 
-      <li><a href="play.php" class=" header__nav-link ">Play</a></li>
+    <li><a href="play.php" class="navigation__link ">Play</a></li>
 
-      <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
+    <li><a href="http://blog.nigelpain.com" class="navigation__link">Blog</a></li>
 
-      <li><a href="contact.php" class=" header__nav-link--cur ">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+    <li><a href="contact.php" class="navigation__link  navigation__link--cur">Contact</a></li>
+  </ul>
+</nav>
 
 
   <div id="page" class="container_12 clearfix">
@@ -104,7 +100,6 @@ unset($_SESSION['confirmation']);
 
 
   <!--build:js js/main.min.js-->
-  <script type="text/javascript" src="js/recent_photos.js"></script>
   <script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
   <!--endbuild-->
   <!-- google analytics code -->

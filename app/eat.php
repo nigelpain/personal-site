@@ -15,11 +15,11 @@
   </a>
 
   <ul class="navigation__list">
-    <li><a href="work.php" class="navigation__link navigation__link--cur">Work</a></li>
+    <li><a href="work.php" class="navigation__link ">Work</a></li>
 
     <li><a href="ride.php" class="navigation__link ">Ride</a></li>
 
-    <li><a href="eat.php" class="navigation__link ">Eat</a></li>
+    <li><a href="eat.php" class="navigation__link  navigation__link--cur">Eat</a></li>
 
     <li><a href="play.php" class="navigation__link ">Play</a></li>
 

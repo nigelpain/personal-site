@@ -2,7 +2,7 @@
 
 {% block content %}
 
-{% import "macros/header.nunjucks" as nav %}
+{% import "macros/navigation.nunjucks" as nav %}
 {{nav.current('')}}
 
   <div id="page" class="container_12 clearfix">

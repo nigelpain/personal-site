@@ -7,7 +7,7 @@ session_start();
 $confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [];
 ?>
 
-{% import "macros/header.nunjucks" as nav %}
+{% import "macros/navigation.nunjucks" as nav %}
 {{nav.current('contact')}}
 
   <div id="page" class="container_12 clearfix">
