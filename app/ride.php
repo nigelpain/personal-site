@@ -48,7 +48,6 @@
 
 
   <!--build:js js/main.min.js-->
-  <script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
   <!--endbuild-->
   <!-- google analytics code -->
   <script>

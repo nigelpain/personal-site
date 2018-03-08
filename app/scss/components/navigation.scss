@@ -42,11 +42,15 @@
     text-decoration: none;
 
     &:hover {
+        color: $yellow;
+    }
+
+    &:active {
         text-shadow: none;
     }
 }
 
 .navigation__link--cur {
-    color: $yellow;
+    
 }
 
