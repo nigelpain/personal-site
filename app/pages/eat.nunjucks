@@ -3,7 +3,7 @@
 {% block content %}
 
 {% import "macros/navigation.nunjucks" as nav %}
-{{nav.currentPage('eat')}}
+{{ nav.nav('eat') }}
 
 {% import "macros/call_to_action.nunjucks" as action %}
 {{ action.action('EAT') }}

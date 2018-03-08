@@ -11,7 +11,7 @@
 
 <nav class="navigation">
   <a href="index.php">
-    <img class="logo" src="images/header_logo.png" alt="Website Logo">
+    <img class="logo" src="images/logo.png" alt="Website Logo">
   </a>
 
   <ul class="navigation__list">
@@ -45,15 +45,13 @@
 </div>
 
 
-  <div>
-    <div>
-      <p>
-        This site is currently undergoing a re-envisioning of sorts, kinda like
-        it hiked up a mountain in the himalayas and discovered something new about
-        itself.
-      </p>
-    </div>
-  </div>
+<div>
+  <p>
+    This site is currently undergoing a re-envisioning of sorts, kinda like
+    it hiked up a mountain in the himalayas and discovered something new about
+    itself.
+  </p>
+</div>
 
 
 

@@ -11,7 +11,7 @@
 
 <nav class="navigation">
   <a href="index.php">
-    <img class="logo" src="images/header_logo.png" alt="Website Logo">
+    <img class="logo" src="images/logo.png" alt="Website Logo">
   </a>
 
   <ul class="navigation__list">

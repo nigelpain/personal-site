@@ -3,19 +3,17 @@
 {% block content %}
 
 {% import "macros/navigation.nunjucks" as nav %}
-{{nav.currentPage('')}}
+{{ nav.nav('') }}
 
 {% import "macros/call_to_action.nunjucks" as action %}
 {{ action.action('NIGEL PAIN') }}
 
-  <div>
-    <div>
-      <p>
-        This site is currently undergoing a re-envisioning of sorts, kinda like
-        it hiked up a mountain in the himalayas and discovered something new about
-        itself.
-      </p>
-    </div>
-  </div>
+<div>
+  <p>
+    This site is currently undergoing a re-envisioning of sorts, kinda like
+    it hiked up a mountain in the himalayas and discovered something new about
+    itself.
+  </p>
+</div>
 
 {% endblock %}

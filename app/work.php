@@ -11,7 +11,7 @@
 
 <nav class="navigation">
   <a href="index.php">
-    <img class="logo" src="images/header_logo.png" alt="Website Logo">
+    <img class="logo" src="images/logo.png" alt="Website Logo">
   </a>
 
   <ul class="navigation__list">
@@ -44,6 +44,12 @@
   </div>
 </div>
 
+
+<div>
+  <p>
+    Check out my <a href="https://codepen.io/Monk_a_Moo/">Codepens</a>
+  </p>
+</div>
 
 
 
