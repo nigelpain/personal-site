@@ -32,6 +32,20 @@
 
 
 
+<div class="call-to-action">
+  <h1 class="call-to-action__header">WORK</h1>
+
+  <p class="call-to-action__sub-header">work smart - ride hard - eat cake - play games</p>
+
+  <div class="call-to-action__buttons">
+    <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
+
+    <a class="link-button" href="contact.php">CONTACT ME</a>
+  </div>
+</div>
+
+
+
 
   <!--build:js js/main.min.js-->
   <script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>

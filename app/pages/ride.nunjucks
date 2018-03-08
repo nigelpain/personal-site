@@ -3,7 +3,9 @@
 {% block content %}
 
 {% import "macros/navigation.nunjucks" as nav %}
-{{nav.current('ride')}}
+{{nav.currentPage('ride')}}
 
+{% import "macros/call_to_action.nunjucks" as action %}
+{{ action.action('RIDE') }}
 
 {% endblock %}

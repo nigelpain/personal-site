@@ -30,16 +30,29 @@
 </nav>
 
 
-  <div id="page" class="container_12 clearfix">
 
-    <div id="columnLeft" class="grid_12">
+
+<div class="call-to-action">
+  <h1 class="call-to-action__header">NIGEL PAIN</h1>
+
+  <p class="call-to-action__sub-header">work smart - ride hard - eat cake - play games</p>
+
+  <div class="call-to-action__buttons">
+    <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
+
+    <a class="link-button" href="contact.php">CONTACT ME</a>
+  </div>
+</div>
+
+
+  <div>
+    <div>
       <p>
         This site is currently undergoing a re-envisioning of sorts, kinda like
         it hiked up a mountain in the himalayas and discovered something new about
         itself.
       </p>
     </div>
-
   </div>
 
 

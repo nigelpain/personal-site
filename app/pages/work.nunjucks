@@ -3,7 +3,9 @@
 {% block content %}
 
 {% import "macros/navigation.nunjucks" as nav %}
-{{nav.current('work')}}
+{{nav.currentPage('work')}}
 
+{% import "macros/call_to_action.nunjucks" as action %}
+{{ action.action('WORK') }}
 
 {% endblock %}

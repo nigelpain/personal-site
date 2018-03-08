@@ -1,4 +1,4 @@
-{% macro current(currentPage='') %}
+{% macro currentPage(currentPage='') %}
 <nav class="navigation">
   <a href="index.php">
     <img class="logo" src="images/header_logo.png" alt="Website Logo">

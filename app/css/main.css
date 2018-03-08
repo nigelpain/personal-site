@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: #FA5724;
+  min-height: 20vh;
+  box-sizing: border-box;
   padding: 0 1rem;
   border-bottom: 3px solid #FED05E; }
   @media (min-width: 900px) {
@@ -43,6 +45,64 @@
   width: auto;
   height: 100px;
   padding: 1rem 0; }
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/backgrounds/default.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  min-height: 80vh;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  border-bottom: 3px solid #FED05E; }
+
+.call-to-action__header {
+  color: #FED05E;
+  font-size: 3rem;
+  font-family: Arial, Verdana, sans-serif;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  padding-bottom: 1rem; }
+
+.call-to-action__sub-header {
+  color: #FA5724;
+  font-size: 1.6rem;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  padding-bottom: 3rem; }
+
+.call-to-action__buttons {
+  display: flex;
+  flex-direction: column; }
+  .call-to-action__buttons > * {
+    margin: 0 1rem 1rem 1rem; }
+  @media (min-width: 600px) {
+    .call-to-action__buttons {
+      flex-direction: row; } }
+
+.link-button {
+  color: #FA5724;
+  text-decoration: none;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  padding: 0.5rem;
+  border: 3px solid #FA5724;
+  border-radius: 6px;
+  box-shadow: 2px 2px black; }
+  .link-button:hover {
+    text-shadow: none;
+    background-color: #FED05E; }
+  .link-button:active {
+    box-shadow: none; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
