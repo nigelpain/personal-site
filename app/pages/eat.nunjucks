@@ -3,9 +3,9 @@
 {% block content %}
 
 {% import "macros/navigation.nunjucks" as nav %}
-{{ nav.nav('contact') }}
+{{ nav.nav('eat') }}
 
 {% import "macros/call_to_action.nunjucks" as action %}
-{{ action.action('CONTACT') }}
+{{ action.action('EAT') }}
 
 {% endblock %}

@@ -15,7 +15,7 @@
   </a>
 
   <ul class="navigation__list">
-    <li><a href="work.php" class="navigation__link ">Work</a></li>
+    <li><a href="work.php" class="navigation__link navigation__link--cur">Work</a></li>
 
     <li><a href="ride.php" class="navigation__link ">Ride</a></li>
 
@@ -33,7 +33,7 @@
 
 
 <div class="call-to-action">
-  <h1 class="call-to-action__header">NIGEL PAIN</h1>
+  <h1 class="call-to-action__header">WORK</h1>
 
   <p class="call-to-action__sub-header">work smart - ride hard - eat cake - play games</p>
 
@@ -47,9 +47,7 @@
 
 <div>
   <p>
-    This site is currently undergoing a re-envisioning of sorts, kinda like
-    it hiked up a mountain in the himalayas and discovered something new about
-    itself.
+    Check out my <a href="https://codepen.io/Monk_a_Moo/">Codepens</a>
   </p>
 </div>
 

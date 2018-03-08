@@ -1,0 +1,21 @@
+{% macro nav(currentPage='') %}
+<nav class="navigation">
+  <a href="index.php">
+    <img class="logo" src="images/logo.png" alt="Website Logo">
+  </a>
+
+  <ul class="navigation__list">
+    <li><a href="work.php" class="navigation__link {% if currentPage == 'work' %}navigation__link--cur{% endif %}">Work</a></li>
+
+    <li><a href="ride.php" class="navigation__link {% if currentPage == 'ride' %} navigation__link--cur{% endif %}">Ride</a></li>
+
+    <li><a href="eat.php" class="navigation__link {% if currentPage == 'eat' %} navigation__link--cur{% endif %}">Eat</a></li>
+
+    <li><a href="play.php" class="navigation__link {% if currentPage == 'play' %} navigation__link--cur{% endif %}">Play</a></li>
+
+    <li><a href="http://blog.nigelpain.com" class="navigation__link">Blog</a></li>
+
+    <li><a href="contact.php" class="navigation__link {% if currentPage == 'contact' %} navigation__link--cur{% endif %}">Contact</a></li>
+  </ul>
+</nav>
+{% endmacro %}

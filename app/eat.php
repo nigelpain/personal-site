@@ -19,7 +19,7 @@
 
     <li><a href="ride.php" class="navigation__link ">Ride</a></li>
 
-    <li><a href="eat.php" class="navigation__link ">Eat</a></li>
+    <li><a href="eat.php" class="navigation__link  navigation__link--cur">Eat</a></li>
 
     <li><a href="play.php" class="navigation__link ">Play</a></li>
 
@@ -33,7 +33,7 @@
 
 
 <div class="call-to-action">
-  <h1 class="call-to-action__header">NIGEL PAIN</h1>
+  <h1 class="call-to-action__header">EAT</h1>
 
   <p class="call-to-action__sub-header">work smart - ride hard - eat cake - play games</p>
 
@@ -44,14 +44,6 @@
   </div>
 </div>
 
-
-<div>
-  <p>
-    This site is currently undergoing a re-envisioning of sorts, kinda like
-    it hiked up a mountain in the himalayas and discovered something new about
-    itself.
-  </p>
-</div>
 
 
 

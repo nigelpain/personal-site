@@ -1,0 +1,21 @@
+.link-button {
+    color: $dark-orange;
+    text-decoration: none;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    padding: 0.5rem;
+    border: 3px solid $dark-orange;
+    border-radius: 6px;
+    box-shadow: 2px 2px black;
+
+    &:hover {
+        text-shadow: none;
+        background-color: $yellow;
+    }
+
+    &:active {
+        box-shadow: none;
+    }
+  }

@@ -1,0 +1,17 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% import "macros/navigation.nunjucks" as nav %}
+{{ nav.nav('work') }}
+
+{% import "macros/call_to_action.nunjucks" as action %}
+{{ action.action('WORK') }}
+
+<div>
+  <p>
+    Check out my <a href="https://codepen.io/Monk_a_Moo/">Codepens</a>
+  </p>
+</div>
+
+{% endblock %}

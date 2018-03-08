@@ -7,103 +7,47 @@
 <body>
   
 
-<?php
-session_start();
-$confirmation = isset($_SESSION['confirmation']) ? $_SESSION['confirmation'] : [];
-?>
+
+
+<nav class="navigation">
+  <a href="index.php">
+    <img class="logo" src="images/logo.png" alt="Website Logo">
+  </a>
+
+  <ul class="navigation__list">
+    <li><a href="work.php" class="navigation__link ">Work</a></li>
+
+    <li><a href="ride.php" class="navigation__link ">Ride</a></li>
+
+    <li><a href="eat.php" class="navigation__link ">Eat</a></li>
+
+    <li><a href="play.php" class="navigation__link ">Play</a></li>
+
+    <li><a href="http://blog.nigelpain.com" class="navigation__link">Blog</a></li>
+
+    <li><a href="contact.php" class="navigation__link  navigation__link--cur">Contact</a></li>
+  </ul>
+</nav>
 
 
 
-<header>
-  <div id="websiteLogo">
-    <a href="index.php">
-      <img src="images/header_logo.png" alt="Website Logo">
-    </a>
+
+<div class="call-to-action">
+  <h1 class="call-to-action__header">CONTACT</h1>
+
+  <p class="call-to-action__sub-header">work smart - ride hard - eat cake - play games</p>
+
+  <div class="call-to-action__buttons">
+    <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
+
+    <a class="link-button" href="contact.php">CONTACT ME</a>
   </div>
-  <nav>
-    <ul>
-      <li><a href="photography.php" class=" navbtn ">Photography</a></li>
-      <li><a href="design.php" class=" navbtn ">Design</a></li>
-      <li><a href="about.php" class=" navbtn ">About</a></li>
-      <li><a href="contact.php" class=" navbtncur ">Contact</a></li>
-    </ul>
-  </nav>
-  <div id="callToAction">
-    <p>
-      Amateur Photographer Based in Devon<br>
-      <a href="gallery.php">check out my photos</a>
-    </p>
-  </div>
-</header>
+</div>
 
-
-  <div id="page" class="container_12 clearfix">
-
-    <div id="columnLeft" class="grid_6">
-      <h1 id="pageHeader">Get in Touch</h1>
-      <div id="contactIntro">
-        <p>Please feel free to use any of the methods on this page to contact me.</p>
-        <p>I am still very much a newbie in the world of photography so I havent got any formal arrangements in place for ordering prints or commissioning me for a shoot. However I would be more than happy to discuss any of these services with you so that we can come to an agreement on what your expectations or requirements are and how well I can meet them.</p>
-        <p>I am also more than happy to take any feedback (hey its the best way to learn) so if you are an old pro critiquing some of my shots or if you have spotted any issues with the website please do let me know.</p>
-      </div><!-- contactIntro -->
-
-      <h2 class="sectionHeader">Form and Composition</h2>
-      <p>Use the form below to email me any queries or suggestions you may have and I will get back to use as soon as possible:</p>
-      <?php if(!empty($confirmation)): ?>
-        <p id="formMessage"><?php echo $_SESSION['confirmation']; ?></p>
-      <?php endif; ?>
-      <div id="contactForm">
-        <form action="email.php" method="post">
-          <div class="formElement">
-            <label class="formLabel" for="name">Name : </label>
-            <input class="formInput" type="text" id="name" name="name" size="30" required>
-          </div>
-          <div class="formElement">
-            <label class="formLabel" for="email">Email : </label>
-            <input class="formInput" type="email" id="email" name="email" size="30" required>
-          </div>
-          <div class="formElement">
-            <label class="formLabel" for="subject">Subject : </label>
-            <input class="formInput" type="text" id="subject" name="subject" size="30" required>
-          </div>
-          <div class="formElement">
-            <label class="formLabel" for="message">Message : </label>
-            <textarea class="formInput" id="message" name="message" rows="5" cols="35" required></textarea>
-          </div>
-          <div class="formSubmit">
-            <input class="formButton" type="submit" value="Submit">
-          </div>
-        </form>
-      </div><!-- contactForm -->
-    </div><!-- columnLeft -->
-
-    <div id="columnRight" class="grid_6">
-      <div id="phoneDetails">
-        <img id="phoneIcon" src="images/Phone Icon.png" alt="Phone Icon">
-        <h2 class="sectionHeader">Audiophone</h2>
-        <p>If you prefer the sound of a human voice then feel free to call me on:</p>
-        <p><b>07527 983268</b></p>
-      </div><!-- phoneDetails -->
-
-      <div id="socialLinks">
-        <h2 class="sectionHeader">Follow Me</h2>
-        <p>(just not in a creepy way please)</p>
-        <script src="https://platform.twitter.com/widgets.js"></script>
-        <a href="https://twitter.com/intent/follow?screen_name=Monk_a_Moo"><img id="twitterLogo" src="./images/TwitterLogo_white.png" /></a>
-      </div><!-- socialLinks -->
-    </div><!-- columnRight -->
-
-  </div>
-
-<?php
-unset($_SESSION['confirmation']);
-?>
 
 
 
   <!--build:js js/main.min.js-->
-  <script type="text/javascript" src="js/recent_photos.js"></script>
-  <script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
   <!--endbuild-->
   <!-- google analytics code -->
   <script>
