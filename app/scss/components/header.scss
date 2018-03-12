@@ -1,0 +1,108 @@
+.header {
+    background: linear-gradient(170deg, $black 25%, transparent), 
+                url('https://picsum.photos/g/900/600?random');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20vh;
+    box-sizing: border-box;
+    padding: 0 1rem;
+
+    @media (min-width: 900px) {
+        flex-direction: row;
+        align-items: stretch;
+    }
+}
+
+.header__nav-logo {
+    display: block;
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 1rem;
+    border: 5px solid $white;
+    margin: auto 0;
+}
+
+.header__nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+    @media (min-width: 900px) {
+        justify-content: flex-end;
+    }
+
+    @media (min-width: 600px){
+        flex-direction: row;
+    }
+}
+
+.header__nav-link {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        color: $light-grey;
+    }
+
+    &:active {
+        transform: translateY(2px);
+    }
+}
+
+.header__nav-link--cur {
+    color: $grey;
+}
+
+.header__action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+  }
+  
+  .header__action-heading {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    padding-bottom: 1rem;
+  }
+  
+  .header__action-sub-heading {
+    color: $light-grey;
+    font-size: 1.6rem;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    padding-bottom: 3rem;
+  }
+  
+  .header__action-buttons {
+    display: flex;
+    flex-direction: column;
+    
+    & > * {
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    @media(min-width: 600px) {
+        flex-direction: row;
+    }
+  }
+  

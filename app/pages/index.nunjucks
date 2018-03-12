@@ -2,11 +2,8 @@
 
 {% block content %}
 
-{% import "macros/navigation.nunjucks" as nav %}
-{{ nav.nav('') }}
-
-{% import "macros/call_to_action.nunjucks" as action %}
-{{ action.action('NIGEL PAIN') }}
+{% import "macros/header.nunjucks" as header %}
+{{ header.header('', 'NIGEL PAIN') }}
 
 <div>
   <p>
