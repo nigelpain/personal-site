@@ -16,7 +16,9 @@
             <h1>NIGEL PAIN</h1>
         </a>
 
-        <ul class="header__nav-list">
+        <a id="header__nav-link--mobile" class="header__nav-link header__nav-link--mobile" href="#">Menu</a>
+
+        <ul id="header__nav-list" class="header__nav-list">
             <li><a href="work.php" class="header__nav-link ">Work</a></li>
 
             <li><a href="ride.php" class="header__nav-link ">Ride</a></li>
@@ -56,7 +58,9 @@
 
 
   <!--build:js js/main.min.js-->
+  <script src="js/nav-menu-mobile.js"></script>
   <!--endbuild-->
+
   <!-- google analytics code -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
