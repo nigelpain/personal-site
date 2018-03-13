@@ -2,7 +2,7 @@
 
 # Read Me
 
-This is the repo for my website which can be found at http://www.nigelpain.com
+This is the repo for my website which can be found at http://nigelpain.com
 
 ## Development
 
@@ -18,4 +18,4 @@ Then it is just a case of starting a MAMP server running on `localhost:8888` and
 
 ## Acknowledgements
 
-Kaushan Script font from: http://www.fontsquirrel.com/fonts/kaushan-script
+None yet
