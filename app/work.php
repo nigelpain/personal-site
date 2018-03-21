@@ -16,10 +16,9 @@
             <h1>NIGEL PAIN</h1>
         </a>
 
-        <a id="header__nav-link--mobile" class="header__nav-link header__nav-link--mobile" href="#">Menu</a>
+        <a id="header__nav-link--mobile" class="header__nav-link header__nav-link--mobile" href="#"><img src="../images/icons/menu.svg">Menu</a>
 
         <ul id="header__nav-list" class="header__nav-list">
-
             <li><a href="work.php" class="header__nav-link header__nav-link--cur">Work</a></li>
 
             <li><a href="ride.php" class="header__nav-link ">Ride</a></li>
@@ -37,7 +36,7 @@
     <div class="header__action">
         <h1 class="header__action-heading">WORK</h1>
 
-        <p class="header__action-sub-heading">where i have worked - frontend findings</p>
+        <p class="header__action-sub-heading">where i have worked - frontend findings - codepen creations</p>
 
         <div class="header__action-buttons">
             <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
