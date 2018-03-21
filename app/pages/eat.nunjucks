@@ -2,10 +2,7 @@
 
 {% block content %}
 
-{% import "macros/navigation.nunjucks" as nav %}
-{{ nav.nav('eat') }}
-
-{% import "macros/call_to_action.nunjucks" as action %}
-{{ action.action('EAT') }}
+{% import "macros/header.nunjucks" as header %}
+{{ header.header('eat', 'EAT', 'recipe rundowns - culinary critiques') }}
 
 {% endblock %}

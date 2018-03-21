@@ -1,6 +1,5 @@
-@import 'utility/variables';
-@import 'components/navigation';
-@import 'components/images';
-@import 'components/call_to_action';
-@import 'components/buttons';
 @import 'vendor/reset';
+@import 'utility/variables';
+@import 'utility/global';
+@import 'components/buttons';
+@import 'components/header';

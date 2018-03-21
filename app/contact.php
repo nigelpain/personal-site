@@ -10,46 +10,49 @@
 
 
 
-<nav class="navigation">
-  <a href="index.php">
-    <img class="logo" src="images/logo.png" alt="Website Logo">
-  </a>
+<header class="header">
+    <nav class="header__nav">
+        <a class="header__nav-logo" href="index.php">
+            <h1>NIGEL PAIN</h1>
+        </a>
 
-  <ul class="navigation__list">
-    <li><a href="work.php" class="navigation__link ">Work</a></li>
+        <a id="header__nav-link--mobile" class="header__nav-link header__nav-link--mobile" href="#"><img src="../images/icons/menu.svg">Menu</a>
 
-    <li><a href="ride.php" class="navigation__link ">Ride</a></li>
+        <ul id="header__nav-list" class="header__nav-list">
+            <li><a href="work.php" class="header__nav-link ">Work</a></li>
 
-    <li><a href="eat.php" class="navigation__link ">Eat</a></li>
+            <li><a href="ride.php" class="header__nav-link ">Ride</a></li>
 
-    <li><a href="play.php" class="navigation__link ">Play</a></li>
+            <li><a href="eat.php" class="header__nav-link ">Eat</a></li>
 
-    <li><a href="http://blog.nigelpain.com" class="navigation__link">Blog</a></li>
+            <li><a href="play.php" class="header__nav-link ">Play</a></li>
 
-    <li><a href="contact.php" class="navigation__link  navigation__link--cur">Contact</a></li>
-  </ul>
-</nav>
+            <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
 
+            <li><a href="contact.php" class="header__nav-link  header__nav-link--cur">Contact</a></li>
+        </ul>
+    </nav>
 
+    <div class="header__action">
+        <h1 class="header__action-heading">CONTACT</h1>
 
+        <p class="header__action-sub-heading">work smart - ride hard - eat cake - play games</p>
 
-<div class="call-to-action">
-  <h1 class="call-to-action__header">CONTACT</h1>
+        <div class="header__action-buttons">
+            <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
 
-  <p class="call-to-action__sub-header">work smart - ride hard - eat cake - play games</p>
-
-  <div class="call-to-action__buttons">
-    <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
-
-    <a class="link-button" href="contact.php">CONTACT ME</a>
-  </div>
-</div>
+            <a class="link-button" href="contact.php">CONTACT ME</a>
+        </div>
+    </div>
+</header>
 
 
 
 
   <!--build:js js/main.min.js-->
+  <script src="js/nav-menu-mobile.js"></script>
   <!--endbuild-->
+
   <!-- google analytics code -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

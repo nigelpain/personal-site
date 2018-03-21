@@ -1,0 +1,37 @@
+{% macro header(currentPage='', headerTitle='', headerSubTitle='') %}
+<header class="header">
+    <nav class="header__nav">
+        <a class="header__nav-logo" href="index.php">
+            <h1>NIGEL PAIN</h1>
+        </a>
+
+        <a id="header__nav-link--mobile" class="header__nav-link header__nav-link--mobile" href="#"><img src="../images/icons/menu.svg">Menu</a>
+
+        <ul id="header__nav-list" class="header__nav-list">
+            <li><a href="work.php" class="header__nav-link {% if currentPage == 'work' %}header__nav-link--cur{% endif %}">Work</a></li>
+
+            <li><a href="ride.php" class="header__nav-link {% if currentPage == 'ride' %} header__nav-link--cur{% endif %}">Ride</a></li>
+
+            <li><a href="eat.php" class="header__nav-link {% if currentPage == 'eat' %} header__nav-link--cur{% endif %}">Eat</a></li>
+
+            <li><a href="play.php" class="header__nav-link {% if currentPage == 'play' %} header__nav-link--cur{% endif %}">Play</a></li>
+
+            <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
+
+            <li><a href="contact.php" class="header__nav-link {% if currentPage == 'contact' %} header__nav-link--cur{% endif %}">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="header__action">
+        <h1 class="header__action-heading">{{ headerTitle }}</h1>
+
+        <p class="header__action-sub-heading">{{ headerSubTitle }}</p>
+
+        <div class="header__action-buttons">
+            <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
+
+            <a class="link-button" href="contact.php">CONTACT ME</a>
+        </div>
+    </div>
+</header>
+{% endmacro %}

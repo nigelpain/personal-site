@@ -2,11 +2,8 @@
 
 {% block content %}
 
-{% import "macros/navigation.nunjucks" as nav %}
-{{ nav.nav('work') }}
-
-{% import "macros/call_to_action.nunjucks" as action %}
-{{ action.action('WORK') }}
+{% import "macros/header.nunjucks" as header %}
+{{ header.header('work', 'WORK', 'where i have worked - frontend findings - codepen creations') }}
 
 <div>
   <p>

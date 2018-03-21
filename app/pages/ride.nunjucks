@@ -2,10 +2,7 @@
 
 {% block content %}
 
-{% import "macros/navigation.nunjucks" as nav %}
-{{ nav.nav('ride') }}
-
-{% import "macros/call_to_action.nunjucks" as action %}
-{{ action.action('RIDE') }}
+{% import "macros/header.nunjucks" as header %}
+{{ header.header('ride', 'RIDE', 'tales from the trails - routes to ride') }}
 
 {% endblock %}

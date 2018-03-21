@@ -1,0 +1,141 @@
+.header {
+    background: linear-gradient(170deg, $black 25%, transparent 65%), 
+                url(../images/backgrounds/default.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    box-sizing: border-box;
+    padding: 2rem 1rem;
+
+    @media (min-width: 500px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.header__nav-logo {
+    display: block;
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 1rem;
+    border: 5px solid $white;
+    margin: auto 1rem;
+}
+
+.header__nav-list {
+    display: none;
+    list-style-type: none;
+
+    @media (min-width: 900px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.header__nav-list--expanded {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: $black;
+}
+
+.header__nav-link {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        color: $light-grey;
+    }
+
+    &:active {
+        transform: translateY(2px);
+    }
+}
+
+.header__nav-link--cur {
+    color: $grey;
+}
+
+.header__nav-link--mobile {
+    display: block;
+    margin-top: 2rem;
+
+    @media (min-width: 900px) {
+        display: none;
+    }
+
+    @media (min-width: 500px) {
+        margin-top: 0;
+    }
+}
+
+.header__nav-link--mobile-expanded {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    margin: 1rem;
+
+    @media (min-width: 500px) {
+        margin: 3rem;
+    }
+}
+
+.header__action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+  }
+  
+  .header__action-heading {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    padding-bottom: 1rem;
+  }
+  
+  .header__action-sub-heading {
+    color: $light-grey;
+    font-size: 1.6rem;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    padding-bottom: 3rem;
+  }
+  
+  .header__action-buttons {
+    display: flex;
+    flex-direction: column;
+    
+    & > * {
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    @media(min-width: 500px) {
+        flex-direction: row;
+    }
+  }
+  
