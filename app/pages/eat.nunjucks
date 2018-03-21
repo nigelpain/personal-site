@@ -3,6 +3,6 @@
 {% block content %}
 
 {% import "macros/header.nunjucks" as header %}
-{{ header.header('eat', 'EAT') }}
+{{ header.header('eat', 'EAT', 'recipe rundowns - culinary critiques') }}
 
 {% endblock %}

@@ -37,7 +37,7 @@
     <div class="header__action">
         <h1 class="header__action-heading">WORK</h1>
 
-        <p class="header__action-sub-heading">work smart - ride hard - eat cake - play games</p>
+        <p class="header__action-sub-heading">where i have worked - frontend findings</p>
 
         <div class="header__action-buttons">
             <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>

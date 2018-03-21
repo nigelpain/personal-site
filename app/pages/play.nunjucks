@@ -3,6 +3,6 @@
 {% block content %}
 
 {% import "macros/header.nunjucks" as header %}
-{{ header.header('play', 'PLAY') }}
+{{ header.header('play', 'PLAY', 'old gamer observations - tabletop talk') }}
 
 {% endblock %}

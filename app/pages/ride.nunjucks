@@ -3,6 +3,6 @@
 {% block content %}
 
 {% import "macros/header.nunjucks" as header %}
-{{ header.header('ride', 'RIDE') }}
+{{ header.header('ride', 'RIDE', 'tales from the trails - routes to ride') }}
 
 {% endblock %}
