@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nigelpain/photography-site.svg?branch=master)](https://travis-ci.org/nigelpain/photography-site)
+[![Build Status](https://travis-ci.org/nigelpain/photography-site.svg?branch=master)](https://travis-ci.org/nigelpain/personal-site)
 
 # Read Me
 
