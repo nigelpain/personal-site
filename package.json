@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "My photography and web design website",
   "main": "index.js",
+  "resolutions": {
+    "natives": "1.1.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
