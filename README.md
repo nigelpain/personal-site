@@ -18,4 +18,4 @@ Then it is just a case of starting a MAMP server running on `localhost:8888` and
 
 ## Acknowledgements
 
-None yet
+None so far
