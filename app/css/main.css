@@ -182,3 +182,26 @@ body {
   @media (min-width: 500px) {
     .header__action-buttons {
       flex-direction: row; } }
+
+.blog-posts {
+  margin: 2rem; }
+
+.blog-posts__heading {
+  margin-bottom: 2rem;
+  font-size: 2.6rem;
+  font-family: Arial, Verdana, sans-serif;
+  color: #bfbfbf; }
+
+.blog-post {
+  margin-bottom: 2rem;
+  border: 3px solid #ffffff;
+  padding: 2rem; }
+
+.blog-post__link {
+  text-decoration: none; }
+
+.blog-post__heading {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-family: Arial, Verdana, sans-serif;
+  color: #bfbfbf; }

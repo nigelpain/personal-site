@@ -47,6 +47,18 @@
 </header>
 
 
+<div class="blog-posts">
+    <h2 class="blog-posts__heading">Recent Blog Posts</h2>
+    <ul>
+        <?php
+        $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?filter[posts_per_page]=5&categories=2&filter[orderby]=date'));
+        foreach ( $posts as $post ) {
+            echo '<li><div class="blog-post"><a href="'.$post->link.'" class="blog-post__link"><h3 class="blog-post__heading">'.$post->title->rendered.'</h3>'.$post->excerpt->rendered.'</a></div></li>';
+        }
+        ?>
+    </ul>
+</div>
+
 
 
   <!--build:js js/main.min.js-->
