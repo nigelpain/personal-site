@@ -29,20 +29,22 @@
 
             <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
 
-            <li><a href="contact.php" class="header__nav-link  header__nav-link--cur">Contact</a></li>
+            <li><a href="contact.php" class="header__nav-link text-colour--contact">Contact</a></li>
         </ul>
     </nav>
 
     <div class="header__action">
-        <h1 class="header__action-heading">CONTACT</h1>
+        
+            <h1 class="header__action-heading text-colour--contact">CONTACT</h1>
 
-        <p class="header__action-sub-heading">work smart - ride hard - eat cake - play games</p>
+            <p class="header__action-sub-heading">work smart - ride hard - eat cake - play games</p>
 
-        <div class="header__action-buttons">
-            <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
+            <div class="header__action-buttons">
+                <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
 
-            <a class="link-button" href="contact.php">CONTACT ME</a>
-        </div>
+                <a class="link-button" href="contact.php">CONTACT ME</a>
+            </div>
+         
     </div>
 </header>
 

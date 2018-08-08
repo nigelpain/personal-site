@@ -3,7 +3,7 @@
 {% block content %}
 
 {% import "macros/header.nunjucks" as header %}
-{{ header.header('ride', 'RIDE', 'tales from the trails - routes to ride') }}
+{{ header.header('ride') }}
 
 <div class="blog-posts">
     <h2 class="blog-posts__heading">Recent Blog Posts</h2>

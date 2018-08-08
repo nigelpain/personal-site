@@ -3,7 +3,7 @@
 {% block content %}
 
 {% import "macros/header.nunjucks" as header %}
-{{ header.header('work', 'WORK', 'where i have worked - frontend findings - codepen creations') }}
+{{ header.header('work') }}
 
 <div>
   <p>
