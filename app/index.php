@@ -34,15 +34,17 @@
     </nav>
 
     <div class="header__action">
-        <h1 class="header__action-heading">NIGEL PAIN</h1>
+        
+            <h1 class="header__action-heading">NIGEL PAIN</h1>
 
-        <p class="header__action-sub-heading">work smart - ride hard - eat cake - play games</p>
+            <p class="header__action-sub-heading">work smart - ride hard - eat cake - play games</p>
 
-        <div class="header__action-buttons">
-            <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
+            <div class="header__action-buttons">
+                <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
 
-            <a class="link-button" href="contact.php">CONTACT ME</a>
-        </div>
+                <a class="link-button" href="contact.php">CONTACT ME</a>
+            </div>
+         
     </div>
 </header>
 

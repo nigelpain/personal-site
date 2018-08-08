@@ -21,7 +21,7 @@
         <ul id="header__nav-list" class="header__nav-list">
             <li><a href="work.php" class="header__nav-link ">Work</a></li>
 
-            <li><a href="ride.php" class="header__nav-link  header__nav-link--cur">Ride</a></li>
+            <li><a href="ride.php" class="header__nav-link  text-colour--ride">Ride</a></li>
 
             <li><a href="eat.php" class="header__nav-link ">Eat</a></li>
 
@@ -34,15 +34,17 @@
     </nav>
 
     <div class="header__action">
-        <h1 class="header__action-heading">RIDE</h1>
+        
+            <h1 class="header__action-heading text-colour--ride">RIDE</h1>
 
-        <p class="header__action-sub-heading">tales from the trails - routes to ride</p>
+            <p class="header__action-sub-heading">tales from the trails - routes to ride</p>
 
-        <div class="header__action-buttons">
-            <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
+            <div class="header__action-buttons">
+                <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
 
-            <a class="link-button" href="contact.php">CONTACT ME</a>
-        </div>
+                <a class="link-button" href="contact.php">CONTACT ME</a>
+            </div>
+         
     </div>
 </header>
 

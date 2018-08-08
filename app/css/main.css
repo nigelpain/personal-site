@@ -52,6 +52,21 @@ p, a, li, h1, h2, h3, h4, h5 {
 body {
   background-color: #000000; }
 
+.text-colour--work {
+  color: #670067; }
+
+.text-colour--ride {
+  color: #006700; }
+
+.text-colour--eat {
+  color: #E6E600; }
+
+.text-colour--play {
+  color: #E60000; }
+
+.text-colour--contact {
+  color: #0000E6; }
+
 .link-button {
   text-decoration: none;
   font-family: Arial, Verdana, sans-serif;
@@ -127,9 +142,6 @@ body {
     color: #bfbfbf; }
   .header__nav-link:active {
     transform: translateY(2px); }
-
-.header__nav-link--cur {
-  color: #808080; }
 
 .header__nav-link--mobile {
   display: block;

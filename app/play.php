@@ -25,7 +25,7 @@
 
             <li><a href="eat.php" class="header__nav-link ">Eat</a></li>
 
-            <li><a href="play.php" class="header__nav-link  header__nav-link--cur">Play</a></li>
+            <li><a href="play.php" class="header__nav-link  text-colour--play">Play</a></li>
 
             <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
 
@@ -34,15 +34,17 @@
     </nav>
 
     <div class="header__action">
-        <h1 class="header__action-heading">PLAY</h1>
+        
+            <h1 class="header__action-heading text-colour--play">PLAY</h1>
 
-        <p class="header__action-sub-heading">old gamer observations - tabletop talk</p>
+            <p class="header__action-sub-heading">old gamer observations - tabletop talk</p>
 
-        <div class="header__action-buttons">
-            <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
+            <div class="header__action-buttons">
+                <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
 
-            <a class="link-button" href="contact.php">CONTACT ME</a>
-        </div>
+                <a class="link-button" href="contact.php">CONTACT ME</a>
+            </div>
+         
     </div>
 </header>
 
