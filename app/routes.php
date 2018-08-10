@@ -21,7 +21,7 @@
         <ul id="header__nav-list" class="header__nav-list">
             <li><a href="work.php" class="header__nav-link ">Work</a></li>
 
-            <li><a href="ride.php" class="header__nav-link ">Ride</a></li>
+            <li><a href="ride.php" class="header__nav-link  text-colour--ride">Ride</a></li>
 
             <li><a href="eat.php" class="header__nav-link ">Eat</a></li>
 
@@ -35,9 +35,9 @@
 
     <div class="header__action">
         
-            <h1 class="header__action-heading">NIGEL PAIN</h1>
+            <h1 class="header__action-heading text-colour--ride">RIDE</h1>
 
-            <p class="header__action-sub-heading">work smart - ride hard - eat cake - play games</p>
+            <p class="header__action-sub-heading">tales from the trails - routes to ride</p>
 
             <div class="header__action-buttons">
                 <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
@@ -50,20 +50,11 @@
 
 
 <div>
-  <p>
-    This site is currently undergoing a re-envisioning of sorts, kinda like
-    it hiked up a mountain in the himalayas and discovered something new about
-    itself.
-  </p>
-</div>
-
-<div class="blog-posts">
-    <h2 class="blog-posts__heading">Recent Blog Post</h2>
     <ul>
         <?php
-        $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?per_page=1&filter[orderby]=date'));
+        $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?per_page=5&categories=3&filter[orderby]=date'));
         foreach ( $posts as $post ) {
-            echo '<li><div class="blog-post"><h3 class="blog-post__heading">'.$post->title->rendered.'</h3>'.$post->excerpt->rendered.'</div></li>';
+            echo '<li><h3 class="blog-posts__heading">'.$post->title->rendered.'</h3>'.$post->content->rendered.'</li>';
         }
         ?>
     </ul>

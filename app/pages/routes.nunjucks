@@ -1,0 +1,19 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% import "macros/header.nunjucks" as header %}
+{{ header.header('ride') }}
+
+<div>
+    <ul>
+        <?php
+        $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?per_page=5&categories=3&filter[orderby]=date'));
+        foreach ( $posts as $post ) {
+            echo '<li><h3 class="blog-posts__heading">'.$post->title->rendered.'</h3>'.$post->content->rendered.'</li>';
+        }
+        ?>
+    </ul>
+</div>
+
+{% endblock %}
