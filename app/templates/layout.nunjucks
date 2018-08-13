@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-  {% block content %} {% endblock %}
+  <div class="grid">
+    {% block content %} {% endblock %}
+  </div>
 
   <!--build:js js/main.min.js-->
   <script src="js/nav-menu-mobile.js"></script>

@@ -5,24 +5,25 @@
 {% import "macros/header.nunjucks" as header %}
 {{ header.header('') }}
 
-<div>
-  <p>
-    This site is currently undergoing a re-envisioning of sorts, kinda like
-    it hiked up a mountain in the himalayas and discovered something new about
-    itself.
-  </p>
-</div>
+<div class="grid__content">
+  <div class="grid__content__item">
+    <div class="section-intro">
+      <h2 class="section-intro__text">Welcome to my website! Sorry it's looking a bit rough at the moment.</h3>
+    </div>
+  </div>
 
-<div class="blog-posts">
-    <h2 class="blog-posts__heading">Recent Blog Post</h2>
-    <ul>
+  <div class="grid__content__item blog-posts">
+      <h2 class="blog-posts__heading">Recent Blog Post</h2>
         <?php
         $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?per_page=1&filter[orderby]=date'));
         foreach ( $posts as $post ) {
-            echo '<li><div class="blog-post"><h3 class="blog-post__heading">'.$post->title->rendered.'</h3>'.$post->excerpt->rendered.'</div></li>';
+            echo '<div class="blog-post"><h3 class="blog-post__heading">'.$post->title->rendered.'</h3>'.$post->excerpt->rendered.'</div>';
         }
         ?>
-    </ul>
+  </div>
 </div>
+
+{% import "macros/footer.nunjucks" as footer %}
+{{ footer.footer('') }}
 
 {% endblock %}

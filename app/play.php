@@ -6,50 +6,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-  
+  <div class="grid">
+    
 
 
 
-<header class="header">
-    <nav class="header__nav">
-        <a class="header__nav-logo" href="index.php">
-            <h1>NIGEL PAIN</h1>
-        </a>
+<div class="grid__header">
+    <header class="header">
+        <nav class="header__nav">
+            <a class="header__nav-logo" href="index.php">
+                <h1>NIGEL PAIN</h1>
+            </a>
 
-        <a id="header__nav-link--mobile" class="header__nav-link header__nav-link--mobile" href="#"><img src="../images/icons/menu.svg">Menu</a>
+            <a id="header__nav-link--mobile" class="header__nav-link header__nav-link--mobile" href="#"><img src="../images/icons/menu.svg">Menu</a>
 
-        <ul id="header__nav-list" class="header__nav-list">
-            <li><a href="work.php" class="header__nav-link ">Work</a></li>
+            <ul id="header__nav-list" class="header__nav-list">
+                <li><a href="work.php" class="header__nav-link ">Work</a></li>
 
-            <li><a href="ride.php" class="header__nav-link ">Ride</a></li>
+                <li><a href="ride.php" class="header__nav-link ">Ride</a></li>
 
-            <li><a href="eat.php" class="header__nav-link ">Eat</a></li>
+                <li><a href="eat.php" class="header__nav-link ">Eat</a></li>
 
-            <li><a href="play.php" class="header__nav-link  text-colour--play">Play</a></li>
+                <li><a href="play.php" class="header__nav-link  text-colour--play">Play</a></li>
 
-            <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
+                <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
 
-            <li><a href="contact.php" class="header__nav-link ">Contact</a></li>
-        </ul>
-    </nav>
+                <li><a href="contact.php" class="header__nav-link ">Contact</a></li>
+            </ul>
+        </nav>
 
-    <div class="header__action">
-        
-            <h1 class="header__action-heading text-colour--play">PLAY</h1>
+        <div class="header__action">
+            
+                <h1 class="header__action-heading text-colour--play">PLAY</h1>
 
-            <p class="header__action-sub-heading">old gamer observations - tabletop talk</p>
+                <p class="header__action-sub-heading">old gamer observations - tabletop talk</p>
 
-            <div class="header__action-buttons">
-                <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
+                <div class="header__action-buttons">
+                    <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
 
-                <a class="link-button" href="contact.php">CONTACT ME</a>
-            </div>
-         
+                    <a class="link-button" href="contact.php">CONTACT ME</a>
+                </div>
+             
+        </div>
+    </header>
+</div>
+
+
+<div class="grid__content">
+  <div class="grid__content__item">
+    <div class="section-intro">
+      <h2 class="section-intro__text">This is the section about playing board and vidya games.</h3>
     </div>
-</header>
+  </div>
+</div>
 
 
 
+
+<div class="grid__footer">
+    <div class="footer">
+        <p>Some links and stuff here</p>
+    </div>
+</div>
+
+
+
+
+  </div>
 
   <!--build:js js/main.min.js-->
   <script src="js/nav-menu-mobile.js"></script>

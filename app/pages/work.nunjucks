@@ -5,10 +5,19 @@
 {% import "macros/header.nunjucks" as header %}
 {{ header.header('work') }}
 
-<div>
-  <p>
-    Check out my <a href="https://codepen.io/Monk_a_Moo/">Codepens</a>
-  </p>
+<div class="grid__content">
+  <div class="grid__content__item">
+    <div class="section-intro">
+      <h2 class="section-intro__text">This is the section about frontend development.</h3>
+    </div>
+  </div>
+
+  <div class="grid__content__item">
+    <p>Check out my <a href="https://codepen.io/Monk_a_Moo/">Codepens</a></p>
+  </div>
 </div>
+
+{% import "macros/footer.nunjucks" as footer %}
+{{ footer.footer('work') }}
 
 {% endblock %}

@@ -1,0 +1,9 @@
+{% macro footer(currentSection='') %}
+
+<div class="grid__footer">
+    <div class="footer">
+        <p>Some links and stuff here</p>
+    </div>
+</div>
+
+{% endmacro %}

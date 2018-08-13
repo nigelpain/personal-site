@@ -1,10 +1,10 @@
 .header {
-    background: linear-gradient(170deg, $black 25%, transparent 65%), 
+    background: linear-gradient(170deg, $black 25%, transparent 65%),
                 url(../images/backgrounds/default.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    height: 100%;
 }
 
 .header__nav {
@@ -12,13 +12,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 15vh;
+    height: 45%;
     box-sizing: border-box;
     padding: 2rem 1rem;
 
     @media (min-width: 500px) {
         flex-direction: row;
         justify-content: space-between;
+        height: 20%;
     }
 }
 
@@ -101,9 +102,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 85vh;
+    height: 55%;
     box-sizing: border-box;
     padding: 1rem 2rem;
+
+    @media (min-width: 500px) {
+        height: 80%;
+    }
   }
   
   .header__action-heading {
