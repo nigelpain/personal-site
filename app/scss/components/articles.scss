@@ -1,8 +1,9 @@
-.section-intro {
+.article {
     border-top: 2px solid $white;
+    border-bottom: 2px solid $white;
     padding: 3rem;
 }
 
-.section-intro__text {
+.article__text {
     font-size: 1.6rem;
 }

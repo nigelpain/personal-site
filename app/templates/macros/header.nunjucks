@@ -1,6 +1,6 @@
 {% macro header(currentSection='') %}
 <div class="grid__header">
-    <header class="header">
+    <header class="header {% if currentSection == 'ride' %}header--ride{% endif %}">
         <nav class="header__nav">
             <a class="header__nav-logo" href="index.php">
                 <h1>NIGEL PAIN</h1>

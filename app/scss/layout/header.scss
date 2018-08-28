@@ -7,6 +7,14 @@
     height: 100%;
 }
 
+.header--ride {
+    background: linear-gradient(170deg, $black 25%, transparent 65%),
+                url(../images/backgrounds/ride.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header__nav {
     display: flex;
     flex-direction: column;

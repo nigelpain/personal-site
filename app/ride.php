@@ -12,7 +12,7 @@
 
 
 <div class="grid__header">
-    <header class="header">
+    <header class="header header--ride">
         <nav class="header__nav">
             <a class="header__nav-logo" href="index.php">
                 <h1>NIGEL PAIN</h1>
@@ -54,13 +54,16 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="section-intro">
-      <h2 class="section-intro__text">This is the section about mountain biking.</h3>
+    <div class="article">
+      <h2 class="article__text">This is the section about mountain biking.</h3>
     </div>
   </div>
 
     <div class="grid__content__item">
-        <a href="routes.php">View Routes I have created</a>
+      <div class="article">
+        <h3 class="article__text">Routes to Ride</h3>
+        <a href="routes.php">click here to see them</a>
+      </div>
     </div>
 </div>
 

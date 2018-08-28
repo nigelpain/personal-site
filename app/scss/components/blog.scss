@@ -1,0 +1,15 @@
+.blog-post {
+    border-bottom: 2px solid $white;
+    padding: 3rem;
+}
+
+.blog-post__heading {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-family: Arial, Verdana, sans-serif;
+    color: $light-grey;
+}
+
+.blog-post > p {
+    padding-bottom: 1rem;
+}

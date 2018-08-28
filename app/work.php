@@ -12,7 +12,7 @@
 
 
 <div class="grid__header">
-    <header class="header">
+    <header class="header ">
         <nav class="header__nav">
             <a class="header__nav-logo" href="index.php">
                 <h1>NIGEL PAIN</h1>
@@ -54,13 +54,16 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="section-intro">
-      <h2 class="section-intro__text">This is the section about frontend development.</h3>
+    <div class="article">
+      <h2 class="article__text">This is the section about frontend development.</h3>
     </div>
   </div>
 
   <div class="grid__content__item">
-    <p>Check out my <a href="https://codepen.io/Monk_a_Moo/">Codepens</a></p>
+    <div class="article">
+      <h3 class="article__text">Codepen Creations</h3>
+      <a href="https://codepen.io/Monk_a_Moo/">Click here to see them</a>
+    </div>
   </div>
 </div>
 
