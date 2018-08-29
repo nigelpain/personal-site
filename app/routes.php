@@ -56,7 +56,7 @@
     <?php
     $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?per_page=5&categories=3&filter[orderby]=date'));
     foreach ( $posts as $post ) {
-        echo '<div class="grid__content__item"><div class="blog-post"><h3 class="blog-post__heading">'.$post->title->rendered.'</h3>'.$post->content->rendered.'</div></div>';
+        echo '<div class="grid__content__item"><div class="blog-post"><div class="blog-post__header"><h3 class="blog-post__heading text-colour--ride">'.$post->title->rendered.'</h3><p class="blog-post__sub-header">Last updated: '.$post->modified_gmt.'</p></div><div class="blog-post__content">'.$post->content->rendered.'</div></div></div>';
     }
     ?>
 </div>
@@ -66,7 +66,7 @@
 
 <div class="grid__footer">
     <div class="footer">
-        <p>Some links and stuff here</p>
+        <p>This is the website footer</p>
     </div>
 </div>
 

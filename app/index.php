@@ -77,7 +77,7 @@
 
 <div class="grid__footer">
     <div class="footer">
-        <p>Some links and stuff here</p>
+        <p>This is the website footer</p>
     </div>
 </div>
 
