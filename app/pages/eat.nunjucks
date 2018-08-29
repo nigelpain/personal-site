@@ -5,4 +5,15 @@
 {% import "macros/header.nunjucks" as header %}
 {{ header.header('eat') }}
 
+<div class="grid__content">
+  <div class="grid__content__item">
+    <div class="article">
+      <h2 class="article__text">This is the section about eating cake and other yummy stuff.</h3>
+    </div>
+  </div>
+</div>
+
+{% import "macros/footer.nunjucks" as footer %}
+{{ footer.footer('eat') }}
+
 {% endblock %}

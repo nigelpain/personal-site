@@ -6,58 +6,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-  
+  <div class="grid">
+    
 
 
 
-<header class="header">
-    <nav class="header__nav">
-        <a class="header__nav-logo" href="index.php">
-            <h1>NIGEL PAIN</h1>
-        </a>
+<div class="grid__header">
+    <header class="header ">
+        <nav class="header__nav">
+            <a class="header__nav-logo" href="index.php">
+                <h1>NIGEL PAIN</h1>
+            </a>
 
-        <a id="header__nav-link--mobile" class="header__nav-link header__nav-link--mobile" href="#"><img src="../images/icons/menu.svg">Menu</a>
+            <a id="header__nav-link--mobile" class="header__nav-link header__nav-link--mobile" href="#"><img src="../images/icons/menu.svg">Menu</a>
 
-        <ul id="header__nav-list" class="header__nav-list">
-            <li><a href="work.php" class="header__nav-link ">Work</a></li>
+            <ul id="header__nav-list" class="header__nav-list">
+                <li><a href="work.php" class="header__nav-link ">Work</a></li>
 
-            <li><a href="ride.php" class="header__nav-link ">Ride</a></li>
+                <li><a href="ride.php" class="header__nav-link ">Ride</a></li>
 
-            <li><a href="eat.php" class="header__nav-link ">Eat</a></li>
+                <li><a href="eat.php" class="header__nav-link ">Eat</a></li>
 
-            <li><a href="play.php" class="header__nav-link ">Play</a></li>
+                <li><a href="play.php" class="header__nav-link ">Play</a></li>
 
-            <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
+                <li><a href="http://blog.nigelpain.com" class="header__nav-link">Blog</a></li>
 
-            <li><a href="contact.php" class="header__nav-link ">Contact</a></li>
-        </ul>
-    </nav>
+                <li><a href="contact.php" class="header__nav-link ">Contact</a></li>
+            </ul>
+        </nav>
 
-    <div class="header__action">
-        
-            <h1 class="header__action-heading">NIGEL PAIN</h1>
+        <div class="header__action">
+            
+                <h1 class="header__action-heading">NIGEL PAIN</h1>
 
-            <p class="header__action-sub-heading">work smart - ride hard - eat cake - play games</p>
+                <p class="header__action-sub-heading">work smart - ride hard - eat cake - play games</p>
 
-            <div class="header__action-buttons">
-                <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
+                <div class="header__action-buttons">
+                    <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
 
-                <a class="link-button" href="contact.php">CONTACT ME</a>
-            </div>
-         
-    </div>
-</header>
-
-
-<div>
-  <p>
-    This site is currently undergoing a re-envisioning of sorts, kinda like
-    it hiked up a mountain in the himalayas and discovered something new about
-    itself.
-  </p>
+                    <a class="link-button" href="contact.php">CONTACT ME</a>
+                </div>
+             
+        </div>
+    </header>
 </div>
 
 
+<div class="grid__content">
+  <div class="grid__content__item">
+    <div class="article">
+      <h2 class="article__text">Welcome to my website! Sorry it's looking a bit rough at the moment.</h3>
+    </div>
+  </div>
+
+  <div class="grid__content__item">
+      <div class="article">
+        <h2 class="article__text">Recent Blog Post</h2>
+        <?php
+        $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?per_page=1&filter[orderby]=date'));
+        foreach ( $posts as $post ) {
+            echo '<h3 class="article__text">'.$post->title->rendered.'</h3><div>'.$post->excerpt->rendered.'</div>';
+        }
+        ?>
+      </div>
+  </div>
+</div>
+
+
+
+
+<div class="grid__footer">
+    <div class="footer">
+        <p>This is the website footer</p>
+    </div>
+</div>
+
+
+
+
+  </div>
 
   <!--build:js js/main.min.js-->
   <script src="js/nav-menu-mobile.js"></script>

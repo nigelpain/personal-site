@@ -12,7 +12,7 @@
 
 
 <div class="grid__header">
-    <header class="header ">
+    <header class="header header--ride">
         <nav class="header__nav">
             <a class="header__nav-logo" href="index.php">
                 <h1>NIGEL PAIN</h1>
@@ -21,9 +21,9 @@
             <a id="header__nav-link--mobile" class="header__nav-link header__nav-link--mobile" href="#"><img src="../images/icons/menu.svg">Menu</a>
 
             <ul id="header__nav-list" class="header__nav-list">
-                <li><a href="work.php" class="header__nav-link text-colour--work">Work</a></li>
+                <li><a href="work.php" class="header__nav-link ">Work</a></li>
 
-                <li><a href="ride.php" class="header__nav-link ">Ride</a></li>
+                <li><a href="ride.php" class="header__nav-link  text-colour--ride">Ride</a></li>
 
                 <li><a href="eat.php" class="header__nav-link ">Eat</a></li>
 
@@ -37,9 +37,9 @@
 
         <div class="header__action">
             
-                <h1 class="header__action-heading text-colour--work">WORK</h1>
+                <h1 class="header__action-heading text-colour--ride">RIDE</h1>
 
-                <p class="header__action-sub-heading">where i have worked - frontend findings - codepen creations</p>
+                <p class="header__action-sub-heading">tales from the trails - routes to ride</p>
 
                 <div class="header__action-buttons">
                     <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
@@ -53,18 +53,12 @@
 
 
 <div class="grid__content">
-  <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">This is the section about frontend development.</h3>
-    </div>
-  </div>
-
-  <div class="grid__content__item">
-    <div class="article">
-      <h3 class="article__text">Codepen Creations</h3>
-      <a href="https://codepen.io/Monk_a_Moo/">Click here to see them</a>
-    </div>
-  </div>
+    <?php
+    $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?per_page=5&categories=3&filter[orderby]=date'));
+    foreach ( $posts as $post ) {
+        echo '<div class="grid__content__item"><div class="blog-post"><div class="blog-post__header"><h3 class="blog-post__heading text-colour--ride">'.$post->title->rendered.'</h3><p class="blog-post__sub-header">Last updated: '.$post->modified_gmt.'</p></div><div class="blog-post__content">'.$post->content->rendered.'</div></div></div>';
+    }
+    ?>
 </div>
 
 

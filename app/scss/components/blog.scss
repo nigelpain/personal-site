@@ -1,0 +1,41 @@
+.blog-post {
+    border-top: 2px solid $white;
+    padding: 3rem;
+}
+
+.blog-post__header {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid $white;
+}
+
+.blog-post__heading {
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+}
+
+.blog-post__sub-header {
+    color: $grey;
+}
+
+.blog-post__content {
+    margin-top: 2rem;
+
+    @media (min-width: 500px) {
+        width: 75%;
+    }
+
+    @media (min-width: 900px) {
+        width: 60%;
+    }
+}
+
+.blog-post__content p {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.blog-post__content img {
+    width: 100%;
+    height: auto;
+    border: 2px solid $grey;
+}
