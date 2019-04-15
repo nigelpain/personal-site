@@ -53,18 +53,12 @@
 
 
 <div class="grid__content">
-  <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">This is the section about eating cake and other yummy stuff.</h3>
-    </div>
-  </div>
-
-  <div class="grid__content__item">
-    <div class="article">
-      <h3 class="article__text">Recipes</h3>
-      <a href="recipes.php">click here to see the them</a>
-    </div>
-  </div>
+    <?php
+    $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?per_page=5&categories=8&filter[orderby]=date'));
+    foreach ( $posts as $post ) {
+        echo '<div class="grid__content__item"><div class="blog-post"><div class="blog-post__header"><h3 class="blog-post__heading text-colour--eat">'.$post->title->rendered.'</h3><p class="blog-post__sub-header">Last updated: '.$post->modified_gmt.'</p></div><div class="blog-post__content">'.$post->content->rendered.'</div></div></div>';
+    }
+    ?>
 </div>
 
 

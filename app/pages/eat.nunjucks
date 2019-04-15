@@ -11,6 +11,13 @@
       <h2 class="article__text">This is the section about eating cake and other yummy stuff.</h3>
     </div>
   </div>
+
+  <div class="grid__content__item">
+    <div class="article">
+      <h3 class="article__text">Recipes</h3>
+      <a href="recipes.php">click here to see the them</a>
+    </div>
+  </div>
 </div>
 
 {% import "macros/footer.nunjucks" as footer %}

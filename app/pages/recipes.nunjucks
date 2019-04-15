@@ -1,0 +1,20 @@
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% import "macros/header.nunjucks" as header %}
+{{ header.header('eat') }}
+
+<div class="grid__content">
+    <?php
+    $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?per_page=5&categories=8&filter[orderby]=date'));
+    foreach ( $posts as $post ) {
+        echo '<div class="grid__content__item"><div class="blog-post"><div class="blog-post__header"><h3 class="blog-post__heading text-colour--eat">'.$post->title->rendered.'</h3><p class="blog-post__sub-header">Last updated: '.$post->modified_gmt.'</p></div><div class="blog-post__content">'.$post->content->rendered.'</div></div></div>';
+    }
+    ?>
+</div>
+
+{% import "macros/footer.nunjucks" as footer %}
+{{ footer.footer('eat') }}
+
+{% endblock %}
