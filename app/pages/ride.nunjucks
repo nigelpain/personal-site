@@ -7,17 +7,15 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">This is the section about mountain biking.</h3>
+    <div class="intro">
+      <h2 class="intro__text">This is the section about mountain biking.</h3>
     </div>
   </div>
 
-    <div class="grid__content__item">
-      <div class="article">
-        <h3 class="article__text">Routes to Ride</h3>
-        <a href="routes.php">click here to see them</a>
-      </div>
-    </div>
+  <div class="grid__content__item">
+    {% import "macros/article.nunjucks" as article %}
+    {{ article.article('bla', 'Routes to Ride', 'These are some routes to ride', 'routes.php', 'Click to view routes') }}
+  </div>
 </div>
 
 {% import "macros/footer.nunjucks" as footer %}

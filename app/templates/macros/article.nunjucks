@@ -1,0 +1,8 @@
+{% macro article(imageSrc='', title='', text='', linkHref='', linkText='') %}
+<div class="article">
+    <img src="{{ imageSrc }}">
+    <h3>{{ title }}</h3>
+    <p>{{ text }}</p>
+    <a href="{{ linkHref }}">{{ linkText }}</a>
+</div>
+{% endmacro %}

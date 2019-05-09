@@ -54,16 +54,21 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">This is the section about eating cake and other yummy stuff.</h3>
+    <div class="intro">
+      <h2 class="intro__text">This is the section about eating cake and other yummy stuff.</h3>
     </div>
   </div>
 
   <div class="grid__content__item">
-    <div class="article">
-      <h3 class="article__text">Recipes</h3>
-      <a href="recipes.php">click here to see the them</a>
-    </div>
+    
+    
+<div class="article">
+    <img src="bla">
+    <h3>Recipes</h3>
+    <p>These are some recipes to cook</p>
+    <a href="recipes.php">Click to view routes</a>
+</div>
+
   </div>
 </div>
 

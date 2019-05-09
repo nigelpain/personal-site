@@ -54,16 +54,21 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">This is the section about frontend development.</h3>
+    <div class="intro">
+      <h2 class="intro__text">This is the section about frontend development.</h3>
     </div>
   </div>
 
   <div class="grid__content__item">
-    <div class="article">
-      <h3 class="article__text">Codepen Creations</h3>
-      <a href="https://codepen.io/Monk_a_Moo/">Click here to see them</a>
-    </div>
+    
+    
+<div class="article">
+    <img src="bla">
+    <h3>Codepen Creations</h3>
+    <p>This is link to codepen</p>
+    <a href="https://codepen.io/Monk_a_Moo/">Click to go to codepen</a>
+</div>
+
   </div>
 </div>
 

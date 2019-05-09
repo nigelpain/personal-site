@@ -225,11 +225,11 @@ body {
   border-top: 2px solid #ffffff;
   padding: 2rem; }
 
-.article {
+.intro {
   border-top: 2px solid #ffffff;
   padding: 3rem; }
 
-.article__text {
+.intro__text {
   font-size: 1.6rem; }
 
 .link-button {
