@@ -54,8 +54,8 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">This is the section about how to get in touch with me.</h3>
+    <div class="intro">
+      <h2 class="intro__text">This is the section about how to get in touch with me.</h3>
     </div>
   </div>
 </div>

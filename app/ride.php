@@ -54,17 +54,24 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">This is the section about mountain biking.</h3>
+    <div class="intro">
+      <h2 class="intro__text">This is the section about mountain biking.</h3>
     </div>
   </div>
 
-    <div class="grid__content__item">
-      <div class="article">
-        <h3 class="article__text">Routes to Ride</h3>
-        <a href="routes.php">click here to see them</a>
-      </div>
+  <div class="grid__content__item">
+    
+    
+<div class="article">
+    <img class="article__image" src="../images/icons/article.svg">
+    <div class="article__text">
+        <h3 class="article__header">Routes to Ride</h3>
+        <p class="article__summary">I am constantly on the hunt for new places for me and my friends to go mountain biking. The link below will take you to the page where I have recorded any expeditions that I have found to be particularly enjoyable. Each of them has been tested and tweaked to provide a great time out on the bike!</p>
+        <a class="article__link" href="routes.php">View details of mountain biking routes</a>
     </div>
+</div>
+
+  </div>
 </div>
 
 

@@ -7,17 +7,15 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">This is the section about mountain biking.</h3>
+    <div class="intro">
+      <h2 class="intro__text">This is the section about mountain biking.</h3>
     </div>
   </div>
 
-    <div class="grid__content__item">
-      <div class="article">
-        <h3 class="article__text">Routes to Ride</h3>
-        <a href="routes.php">click here to see them</a>
-      </div>
-    </div>
+  <div class="grid__content__item">
+    {% import "macros/article.nunjucks" as article %}
+    {{ article.article(title='Routes to Ride', text='I am constantly on the hunt for new places for me and my friends to go mountain biking. The link below will take you to the page where I have recorded any expeditions that I have found to be particularly enjoyable. Each of them has been tested and tweaked to provide a great time out on the bike!', linkHref='routes.php', linkText='View details of mountain biking routes') }}
+  </div>
 </div>
 
 {% import "macros/footer.nunjucks" as footer %}

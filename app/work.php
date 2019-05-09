@@ -54,16 +54,23 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">This is the section about frontend development.</h3>
+    <div class="intro">
+      <h2 class="intro__text">This is the section about frontend development.</h3>
     </div>
   </div>
 
   <div class="grid__content__item">
-    <div class="article">
-      <h3 class="article__text">Codepen Creations</h3>
-      <a href="https://codepen.io/Monk_a_Moo/">Click here to see them</a>
+    
+    
+<div class="article">
+    <img class="article__image" src="../images/icons/article.svg">
+    <div class="article__text">
+        <h3 class="article__header">Codepen Creations</h3>
+        <p class="article__summary">Whilst I work mainly as a full stack developer, I love the frontend side of my job the most. In order to keep up to date with the latest ideas and technologies I used codepen to experiment and build my knowledge. Follow the link below to view my profile on codepen.</p>
+        <a class="article__link" href="https://codepen.io/Monk_a_Moo/">View my frontend noodles on codepen</a>
     </div>
+</div>
+
   </div>
 </div>
 

@@ -54,21 +54,9 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">Welcome to my website! Sorry it's looking a bit rough at the moment.</h3>
+    <div class="intro">
+      <h2 class="intro__text">Welcome to my website! Sorry it's looking a bit rough at the moment.</h3>
     </div>
-  </div>
-
-  <div class="grid__content__item">
-      <div class="article">
-        <h2 class="article__text">Recent Blog Post</h2>
-        <?php
-        $posts = json_decode(file_get_contents('http://blog.nigelpain.com/wp-json/wp/v2/posts?per_page=1&filter[orderby]=date'));
-        foreach ( $posts as $post ) {
-            echo '<h3 class="article__text">'.$post->title->rendered.'</h3><div>'.$post->excerpt->rendered.'</div>';
-        }
-        ?>
-      </div>
   </div>
 </div>
 

@@ -54,16 +54,23 @@
 
 <div class="grid__content">
   <div class="grid__content__item">
-    <div class="article">
-      <h2 class="article__text">This is the section about eating cake and other yummy stuff.</h3>
+    <div class="intro">
+      <h2 class="intro__text">This is the section about eating cake and other yummy stuff.</h3>
     </div>
   </div>
 
   <div class="grid__content__item">
-    <div class="article">
-      <h3 class="article__text">Recipes</h3>
-      <a href="recipes.php">click here to see the them</a>
+    
+    
+<div class="article">
+    <img class="article__image" src="../images/icons/article.svg">
+    <div class="article__text">
+        <h3 class="article__header">Recipe Rundowns</h3>
+        <p class="article__summary">Anyone who knows me, knows that I love to eat anything and everything! Sometimes my culinary ramblings inspire me to take to the kitchen and come up with my own ideas for mouth watering meals, all of which can be viewed with the link below.</p>
+        <a class="article__link" href="recipes.php">View details of my recipes</a>
     </div>
+</div>
+
   </div>
 </div>
 
