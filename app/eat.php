@@ -63,10 +63,12 @@
     
     
 <div class="article">
-    <img src="bla">
-    <h3>Recipes</h3>
-    <p>These are some recipes to cook</p>
-    <a href="recipes.php">Click to view routes</a>
+    <img class="article__image" src="../images/icons/article.svg">
+    <div class="article__text">
+        <h3 class="article__header">Recipes</h3>
+        <p class="article__summary">These are some recipes to cook</p>
+        <a class="article__link" href="recipes.php">Click to view routes</a>
+    </div>
 </div>
 
   </div>

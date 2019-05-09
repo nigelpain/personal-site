@@ -14,7 +14,7 @@
 
   <div class="grid__content__item">
     {% import "macros/article.nunjucks" as article %}
-    {{ article.article('bla', 'Codepen Creations', 'This is link to codepen', 'https://codepen.io/Monk_a_Moo/', 'Click to go to codepen') }}
+    {{ article.article(title='Codepen Creations', text='This is link to codepen', linkHref='https://codepen.io/Monk_a_Moo/', linkText='Click to go to codepen') }}
   </div>
 </div>
 

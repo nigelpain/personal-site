@@ -14,7 +14,7 @@
 
   <div class="grid__content__item">
     {% import "macros/article.nunjucks" as article %}
-    {{ article.article('bla', 'Routes to Ride', 'These are some routes to ride', 'routes.php', 'Click to view routes') }}
+    {{ article.article(title='Routes to Ride', text='These are some routes to ride', linkHref='routes.php', linkText='Click to view routes') }}
   </div>
 </div>
 

@@ -1,8 +1,10 @@
-{% macro article(imageSrc='', title='', text='', linkHref='', linkText='') %}
+{% macro article(imageSrc='../images/icons/article.svg', title='', text='', linkHref='', linkText='') %}
 <div class="article">
-    <img src="{{ imageSrc }}">
-    <h3>{{ title }}</h3>
-    <p>{{ text }}</p>
-    <a href="{{ linkHref }}">{{ linkText }}</a>
+    <img class="article__image" src="{{ imageSrc }}">
+    <div class="article__text">
+        <h3 class="article__header">{{ title }}</h3>
+        <p class="article__summary">{{ text }}</p>
+        <a class="article__link" href="{{ linkHref }}">{{ linkText }}</a>
+    </div>
 </div>
 {% endmacro %}

@@ -232,6 +232,43 @@ body {
 .intro__text {
   font-size: 1.6rem; }
 
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #ffffff;
+  padding: 3rem; }
+  @media (min-width: 500px) {
+    .article {
+      flex-direction: row; } }
+
+.article__image {
+  flex: 0 0 25%;
+  width: auto;
+  height: 100px;
+  margin-bottom: 2rem; }
+  @media (min-width: 500px) {
+    .article__image {
+      margin-bottom: 0; } }
+
+.article__text {
+  flex: 0 0 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.article__header {
+  margin-bottom: 2rem;
+  font-size: 1.6rem; }
+
+.article__summary {
+  margin-bottom: 1rem;
+  font-size: 1.2rem; }
+
+.article__link {
+  font-size: 1.2rem; }
+
 .link-button {
   text-decoration: none;
   font-family: Arial, Verdana, sans-serif;

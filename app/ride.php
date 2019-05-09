@@ -63,10 +63,12 @@
     
     
 <div class="article">
-    <img src="bla">
-    <h3>Routes to Ride</h3>
-    <p>These are some routes to ride</p>
-    <a href="routes.php">Click to view routes</a>
+    <img class="article__image" src="../images/icons/article.svg">
+    <div class="article__text">
+        <h3 class="article__header">Routes to Ride</h3>
+        <p class="article__summary">These are some routes to ride</p>
+        <a class="article__link" href="routes.php">Click to view routes</a>
+    </div>
 </div>
 
   </div>
