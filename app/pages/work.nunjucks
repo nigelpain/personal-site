@@ -14,7 +14,7 @@
 
   <div class="grid__content__item">
     {% import "macros/article.nunjucks" as article %}
-    {{ article.article(title='Codepen Creations', text='This is link to codepen', linkHref='https://codepen.io/Monk_a_Moo/', linkText='Click to go to codepen') }}
+    {{ article.article(title='Codepen Creations', text='Whilst I work mainly as a full stack developer, I love the frontend side of my job the most. In order to keep up to date with the latest ideas and technologies I used codepen to experiment and build my knowledge. Follow the link below to view my profile on codepen.', linkHref='https://codepen.io/Monk_a_Moo/', linkText='View my frontend noodles on codepen') }}
   </div>
 </div>
 

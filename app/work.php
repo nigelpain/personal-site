@@ -66,8 +66,8 @@
     <img class="article__image" src="../images/icons/article.svg">
     <div class="article__text">
         <h3 class="article__header">Codepen Creations</h3>
-        <p class="article__summary">This is link to codepen</p>
-        <a class="article__link" href="https://codepen.io/Monk_a_Moo/">Click to go to codepen</a>
+        <p class="article__summary">Whilst I work mainly as a full stack developer, I love the frontend side of my job the most. In order to keep up to date with the latest ideas and technologies I used codepen to experiment and build my knowledge. Follow the link below to view my profile on codepen.</p>
+        <a class="article__link" href="https://codepen.io/Monk_a_Moo/">View my frontend noodles on codepen</a>
     </div>
 </div>
 

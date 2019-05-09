@@ -66,8 +66,8 @@
     <img class="article__image" src="../images/icons/article.svg">
     <div class="article__text">
         <h3 class="article__header">Routes to Ride</h3>
-        <p class="article__summary">These are some routes to ride</p>
-        <a class="article__link" href="routes.php">Click to view routes</a>
+        <p class="article__summary">I am constantly on the hunt for new places for me and my friends to go mountain biking. The link below will take you to the page where I have recorded any expeditions that I have found to be particularly enjoyable. Each of them has been tested and tweaked to provide a great time out on the bike!</p>
+        <a class="article__link" href="routes.php">View details of mountain biking routes</a>
     </div>
 </div>
 

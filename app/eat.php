@@ -65,9 +65,9 @@
 <div class="article">
     <img class="article__image" src="../images/icons/article.svg">
     <div class="article__text">
-        <h3 class="article__header">Recipes</h3>
-        <p class="article__summary">These are some recipes to cook</p>
-        <a class="article__link" href="recipes.php">Click to view routes</a>
+        <h3 class="article__header">Recipe Rundowns</h3>
+        <p class="article__summary">Anyone who knows me, knows that I love to eat anything and everything! Sometimes my culinary ramblings inspire me to take to the kitchen and come up with my own ideas for mouth watering meals, all of which can be viewed with the link below.</p>
+        <a class="article__link" href="recipes.php">View details of my recipes</a>
     </div>
 </div>
 
