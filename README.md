@@ -4,7 +4,7 @@
 
 This is the repo for my website which can be found at http://nigelpain.com
 
-## Development
+## Setup
 
 In order to contribute to this site you will need to do the following:
 
@@ -14,7 +14,12 @@ In order to contribute to this site you will need to do the following:
 * Then run `npm install gulp -g` to be able to run the gulp tasks
 * Finally run `npm install` to install all of the other dependencies
 
-Then it is just a case of starting a MAMP server running on `localhost:8888` and pointing at the app sub-folder within where you cloned down this repo, running the command `gulp` to setup the development watcher task and getting to work!
+## Development
+
+Once you have the site setup, to start development you will need to do the following: 
+
+* Start a MAMP server running on `localhost:8888` and pointing at the app sub-folder within where you cloned down this repo
+* Run the command `gulp dev` which builds the css and php pages and also runs a watcher which will hot reload the browser when any of the templates or assets are changed
 
 ## Acknowledgements
 
