@@ -10,7 +10,6 @@
     
 
 
-
 <div class="grid__header">
     <header class="header header--ride">
         <nav class="header__nav">
@@ -60,7 +59,6 @@
     }
     ?>
 </div>
-
 
 
 
