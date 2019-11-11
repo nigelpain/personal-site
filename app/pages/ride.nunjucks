@@ -1,24 +1,37 @@
+{% import "macros/header.nunjucks" as header %}
+{% import "macros/article.nunjucks" as article %}
+{% import "macros/footer.nunjucks" as footer %}
+
 {% extends "layout.nunjucks" %}
 
 {% block content %}
 
-{% import "macros/header.nunjucks" as header %}
 {{ header.header('ride') }}
 
 <div class="grid__content">
   <div class="grid__content__item">
     <div class="intro">
-      <h2 class="intro__text">This is the section about mountain biking.</h3>
+      <h2 class="intro__text">"And into the forest I go, to lose my mind and find my soul." - John Muir</h3>
     </div>
   </div>
 
   <div class="grid__content__item">
-    {% import "macros/article.nunjucks" as article %}
     {{ article.article(title='Routes to Ride', text='I am constantly on the hunt for new places for me and my friends to go mountain biking. The link below will take you to the page where I have recorded any expeditions that I have found to be particularly enjoyable. Each of them has been tested and tweaked to provide a great time out on the bike!', linkHref='routes.php', linkText='View details of mountain biking routes') }}
+  </div>
+
+  <div class="grid__content__item">
+    {{ article.article(title='The Trail Hunter', text='Theres not much better than trying a new trail and discovering that its an absolute gem that you want to ride again and again! The link below will take you to the page where I have details and recordings of any great trails I have discovered. Why dont you try and include them in your own routes?!', linkHref='trails.php', linkText='View trails that I have discovered') }}
+  </div>
+
+  <div class="grid__content__item">
+    {{ article.article(title='Epic Rides', text='Sometimes life only affords you a quick blast in your local woods or trail centre. But when you have time to get out and really push yourself beyond your limits or venture far off the beaten track, those are the rides that linger in memory for years to come. The link below takes you to a page where you can read about all my most memorable rides.', linkHref='epic.php', linkText='Read about the epic rides I have organised') }}
+  </div>
+
+  <div class="grid__content__item">
+    {{ article.article(title='The Newcomer Chronicles', text='Mountain biking is such a diverse activity with many different experiences, from learning new skills, to first times riding a famous trail and experiencing the thrill of a weeks holiday at an alpine bike park. The link below takes you to a page where I have documented the experiences of my partner and I as we have journeyed into the vast world of mountain biking!', linkHref='newcomer.php', linkText='Read about our experiences and learning about mountain biking') }}
   </div>
 </div>
 
-{% import "macros/footer.nunjucks" as footer %}
 {{ footer.footer('ride') }}
 
 {% endblock %}

@@ -1,8 +1,10 @@
+{% import "macros/header.nunjucks" as header %}
+{% import "macros/footer.nunjucks" as footer %}
+
 {% extends "layout.nunjucks" %}
 
 {% block content %}
 
-{% import "macros/header.nunjucks" as header %}
 {{ header.header('eat') }}
 
 <div class="grid__content">
@@ -14,7 +16,6 @@
     ?>
 </div>
 
-{% import "macros/footer.nunjucks" as footer %}
 {{ footer.footer('eat') }}
 
 {% endblock %}

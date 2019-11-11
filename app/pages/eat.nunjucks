@@ -1,8 +1,11 @@
+{% import "macros/header.nunjucks" as header %}
+{% import "macros/article.nunjucks" as article %}
+{% import "macros/footer.nunjucks" as footer %}
+
 {% extends "layout.nunjucks" %}
 
 {% block content %}
 
-{% import "macros/header.nunjucks" as header %}
 {{ header.header('eat') }}
 
 <div class="grid__content">
@@ -13,12 +16,10 @@
   </div>
 
   <div class="grid__content__item">
-    {% import "macros/article.nunjucks" as article %}
     {{ article.article(title='Recipe Rundowns', text='Anyone who knows me, knows that I love to eat anything and everything! Sometimes my culinary ramblings inspire me to take to the kitchen and come up with my own ideas for mouth watering meals, all of which can be viewed with the link below.', linkHref='recipes.php', linkText='View details of my recipes') }}
   </div>
 </div>
 
-{% import "macros/footer.nunjucks" as footer %}
 {{ footer.footer('eat') }}
 
 {% endblock %}

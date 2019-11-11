@@ -10,7 +10,6 @@
     
 
 
-
 <div class="grid__header">
     <header class="header header--ride">
         <nav class="header__nav">
@@ -55,12 +54,11 @@
 <div class="grid__content">
   <div class="grid__content__item">
     <div class="intro">
-      <h2 class="intro__text">This is the section about mountain biking.</h3>
+      <h2 class="intro__text">"And into the forest I go, to lose my mind and find my soul." - John Muir</h3>
     </div>
   </div>
 
   <div class="grid__content__item">
-    
     
 <div class="article">
     <img class="article__image" src="../images/icons/article.svg">
@@ -72,8 +70,46 @@
 </div>
 
   </div>
+
+  <div class="grid__content__item">
+    
+<div class="article">
+    <img class="article__image" src="../images/icons/article.svg">
+    <div class="article__text">
+        <h3 class="article__header">The Trail Hunter</h3>
+        <p class="article__summary">Theres not much better than trying a new trail and discovering that its an absolute gem that you want to ride again and again! The link below will take you to the page where I have details and recordings of any great trails I have discovered. Why dont you try and include them in your own routes?!</p>
+        <a class="article__link" href="trails.php">View trails that I have discovered</a>
+    </div>
 </div>
 
+  </div>
+
+  <div class="grid__content__item">
+    
+<div class="article">
+    <img class="article__image" src="../images/icons/article.svg">
+    <div class="article__text">
+        <h3 class="article__header">Epic Rides</h3>
+        <p class="article__summary">Sometimes life only affords you a quick blast in your local woods or trail centre. But when you have time to get out and really push yourself beyond your limits or venture far off the beaten track, those are the rides that linger in memory for years to come. The link below takes you to a page where you can read about all my most memorable rides.</p>
+        <a class="article__link" href="epic.php">Read about the epic rides I have organised</a>
+    </div>
+</div>
+
+  </div>
+
+  <div class="grid__content__item">
+    
+<div class="article">
+    <img class="article__image" src="../images/icons/article.svg">
+    <div class="article__text">
+        <h3 class="article__header">The Newcomer Chronicles</h3>
+        <p class="article__summary">Mountain biking is such a diverse activity with many different experiences, from learning new skills, to first times riding a famous trail and experiencing the thrill of a weeks holiday at an alpine bike park. The link below takes you to a page where I have documented the experiences of my partner and I as we have journeyed into the vast world of mountain biking!</p>
+        <a class="article__link" href="newcomer.php">Read about our experiences and learning about mountain biking</a>
+    </div>
+</div>
+
+  </div>
+</div>
 
 
 

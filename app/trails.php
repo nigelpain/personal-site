@@ -11,7 +11,7 @@
 
 
 <div class="grid__header">
-    <header class="header ">
+    <header class="header header--ride">
         <nav class="header__nav">
             <a class="header__nav-logo" href="index.php">
                 <h1>NIGEL PAIN</h1>
@@ -22,7 +22,7 @@
             <ul id="header__nav-list" class="header__nav-list">
                 <li><a href="work.php" class="header__nav-link ">Work</a></li>
 
-                <li><a href="ride.php" class="header__nav-link ">Ride</a></li>
+                <li><a href="ride.php" class="header__nav-link  text-colour--ride">Ride</a></li>
 
                 <li><a href="eat.php" class="header__nav-link ">Eat</a></li>
 
@@ -36,9 +36,9 @@
 
         <div class="header__action">
             
-                <h1 class="header__action-heading">NIGEL PAIN</h1>
+                <h1 class="header__action-heading text-colour--ride">RIDE</h1>
 
-                <p class="header__action-sub-heading">work smart - ride hard - eat cake - play games</p>
+                <p class="header__action-sub-heading">tales from the trails - routes to ride</p>
 
                 <div class="header__action-buttons">
                     <a class="link-button" href="http://blog.nigelpain.com">READ MY MUSINGS</a>
@@ -51,13 +51,7 @@
 </div>
 
 
-<div class="grid__content">
-  <div class="grid__content__item">
-    <div class="intro">
-      <h2 class="intro__text">Welcome to my website! Sorry it's looking a bit rough at the moment.</h3>
-    </div>
-  </div>
-</div>
+<p>Coming soon!</p>
 
 
 

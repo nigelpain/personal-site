@@ -1,0 +1,14 @@
+{% import "macros/header.nunjucks" as header %}
+{% import "macros/footer.nunjucks" as footer %}
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{{ header.header('ride') }}
+
+<p>Coming soon!</p>
+
+{{ footer.footer('ride') }}
+
+{% endblock %}

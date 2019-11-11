@@ -10,7 +10,6 @@
     
 
 
-
 <div class="grid__header">
     <header class="header ">
         <nav class="header__nav">
@@ -61,7 +60,6 @@
 
   <div class="grid__content__item">
     
-    
 <div class="article">
     <img class="article__image" src="../images/icons/article.svg">
     <div class="article__text">
@@ -73,7 +71,6 @@
 
   </div>
 </div>
-
 
 
 
