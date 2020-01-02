@@ -1,5 +1,5 @@
-{% macro article(imageSrc='../images/icons/article.svg', title='', text='', linkHref='', linkText='') %}
-<div class="article">
+{% macro article(imageSrc='../images/icons/article.svg', title='', text='', background='', linkHref='', linkText='') %}
+<div class="article {% if background == 'routes' %}background--routes{% endif %}">
     <img class="article__image" src="{{ imageSrc }}">
     <div class="article__text">
         <h3 class="article__header">{{ title }}</h3>

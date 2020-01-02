@@ -16,7 +16,7 @@
   </div>
 
   <div class="grid__content__item">
-    {{ article.article(title='Routes to Ride', text='I am constantly on the hunt for new places for me and my friends to go mountain biking. The link below will take you to the page where I have recorded any expeditions that I have found to be particularly enjoyable. Each of them has been tested and tweaked to provide a great time out on the bike!', linkHref='routes.php', linkText='View details of mountain biking routes') }}
+    {{ article.article(title='Routes to Ride', text='I am constantly on the hunt for new places for me and my friends to go mountain biking. The link below will take you to the page where I have recorded any expeditions that I have found to be particularly enjoyable. Each of them has been tested and tweaked to provide a great time out on the bike!', background='routes', linkHref='routes.php', linkText='View details of mountain biking routes') }}
   </div>
 
   <div class="grid__content__item">

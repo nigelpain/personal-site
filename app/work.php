@@ -10,8 +10,8 @@
     
 
 
-<div class="grid__header">
-    <header class="header ">
+<div class="grid__header background ">
+    <header class="header">
         <nav class="header__nav">
             <a class="header__nav-logo" href="index.php">
                 <h1>NIGEL PAIN</h1>
@@ -60,7 +60,7 @@
 
   <div class="grid__content__item">
     
-<div class="article">
+<div class="article ">
     <img class="article__image" src="../images/icons/article.svg">
     <div class="article__text">
         <h3 class="article__header">Codepen Creations</h3>
@@ -74,10 +74,18 @@
 
 
 
-<div class="grid__footer">
-    <div class="footer">
-        <p>This is the website footer</p>
-    </div>
+<div class="grid__footer background ">
+    <footer class="footer">
+        <p class="footer__copyright">&copy; Copyright 2020 Nigel Pain</p>
+        
+        <ul class="footer__link-list">
+            <li><a href="https://www.linkedin.com/in/nigel-pain/" class="footer__link">LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/nigel.pain" class="footer__link">Facebook</a></li>
+            <li><a href="https://twitter.com/Monk_a_Moo" class="footer__link">Twitter</a></li>
+            <li><a href="https://www.youtube.com/channel/UCZPyJN2bv3TD99fQcnLCyXA" class="footer__link">Youtube</a></li>
+            <li><a href="contact.php" class="footer__link">Contact</a></li>
+        </ul>
+    </footer>
 </div>
 
 

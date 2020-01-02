@@ -69,7 +69,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-rows: 100vh auto 10vh;
+  grid-template-rows: 100vh auto auto;
   grid-template-areas: "header" "content" "footer"; }
 
 .grid__header {
@@ -100,17 +100,8 @@ body {
   grid-area: footer; }
 
 .header {
-  background: linear-gradient(170deg, #000000 25%, transparent 65%), url(../images/backgrounds/default.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(170deg, #000000 25%, transparent 65%);
   height: 100%; }
-
-.header--ride {
-  background: linear-gradient(170deg, #000000 25%, transparent 65%), url(../images/backgrounds/ride.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
 
 .header__nav {
   display: flex;
@@ -222,8 +213,42 @@ body {
       flex-direction: row; } }
 
 .footer {
+  background: linear-gradient(170deg, transparent 25%, #000000 65%);
   border-top: 2px solid #ffffff;
-  padding: 2rem; }
+  padding: 2rem 1rem; }
+
+.footer__copyright {
+  padding: 1rem;
+  color: #bfbfbf;
+  font-size: 1.2rem;
+  text-align: center; }
+  @media (min-width: 900px) {
+    .footer__copyright {
+      text-align: end; } }
+
+.footer__link-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  list-style-type: none; }
+  @media (min-width: 900px) {
+    .footer__link-list {
+      flex-direction: row;
+      justify-content: flex-end; } }
+
+.footer__link {
+  padding: 0 0 1rem 0;
+  font-size: 1.2rem;
+  text-decoration: none; }
+  .footer__link:hover {
+    color: #bfbfbf; }
+  .footer__link:active {
+    transform: translateY(2px); }
+  @media (min-width: 900px) {
+    .footer__link {
+      padding-left: 0 0 0 1rem; } }
 
 .intro {
   border-top: 2px solid #ffffff;
@@ -317,3 +342,24 @@ body {
   width: 100%;
   height: auto;
   border: 2px solid #808080; }
+
+.background {
+  background: url(../images/backgrounds/default.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.background--ride {
+  background: url(../images/backgrounds/ride.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.background--routes {
+  background: url(../images/backgrounds/routes.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
