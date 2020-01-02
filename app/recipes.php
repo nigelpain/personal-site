@@ -10,8 +10,8 @@
     
 
 
-<div class="grid__header">
-    <header class="header ">
+<div class="grid__header background ">
+    <header class="header">
         <nav class="header__nav">
             <a class="header__nav-logo" href="index.php">
                 <h1>NIGEL PAIN</h1>
@@ -62,10 +62,10 @@
 
 
 
-<div class="grid__footer">
-    <div class="footer">
-        <p>This is the website footer</p>
-    </div>
+<div class="grid__footer background ">
+    <footer class="footer">
+        <p class="footer__links">This is the website footer</p>
+    </footer>
 </div>
 
 

@@ -1,4 +1,8 @@
 .footer {
+    background: linear-gradient(170deg, transparent 25%, $black 65%);
     border-top: 2px solid $white;
-    padding: 2rem;
+}
+
+.footer__links {
+    padding: 2em;
 }

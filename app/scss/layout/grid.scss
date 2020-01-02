@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    grid-template-rows: 100vh auto 10vh;
+    grid-template-rows: 100vh auto auto;
     grid-template-areas: 
         "header"
         "content"

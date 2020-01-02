@@ -1,9 +1,9 @@
 {% macro footer(currentSection='') %}
 
-<div class="grid__footer">
-    <div class="footer">
-        <p>This is the website footer</p>
-    </div>
+<div class="grid__footer background {% if currentSection == 'ride' %}background--ride{% endif %}">
+    <footer class="footer">
+        <p class="footer__links">This is the website footer</p>
+    </footer>
 </div>
 
 {% endmacro %}
